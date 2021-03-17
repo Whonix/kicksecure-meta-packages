@@ -1,14 +1,14 @@
 ## Copyright (C) 2012 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
-Source: anon-meta-packages
+Source: kicksecure-meta-packages
 Section: metapackages
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
 Build-Depends: debhelper (>= 12)
-Homepage: https://github.com/Whonix/anon-meta-packages
-Vcs-Browser: https://github.com/Whonix/anon-meta-packages
-Vcs-Git: https://github.com/Whonix/anon-meta-packages.git
+Homepage: https://github.com/Whonix/kicksecure-meta-packages
+Vcs-Browser: https://github.com/Whonix/kicksecure-meta-packages
+Vcs-Git: https://github.com/Whonix/kicksecure-meta-packages.git
 Standards-Version: 4.3.0
 
 Package: firmware-nonfreedom

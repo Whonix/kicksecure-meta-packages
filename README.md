@@ -1,4 +1,4 @@
-## How to install `anon-meta-packages` using apt-get ##
+## How to install `kicksecure-meta-packages` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
 
@@ -26,15 +26,15 @@ echo "deb https://deb.whonix.org buster main contrib non-free" | sudo tee /etc/a
 sudo apt-get update
 ```
 
-5\. Install `anon-meta-packages`.
+5\. Install `kicksecure-meta-packages`.
 
 ```
-sudo apt-get install anon-meta-packages
+sudo apt-get install kicksecure-meta-packages
 ```
 
 ## How to Build deb Package ##
 
-Replace `apparmor-profile-torbrowser` with the actual name of this package with `anon-meta-packages` and see [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
+Replace `apparmor-profile-torbrowser` with the actual name of this package with `kicksecure-meta-packages` and see [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
 
 ## Contact ##
 
@@ -43,4 +43,4 @@ Replace `apparmor-profile-torbrowser` with the actual name of this package with 
 
 ## Donate ##
 
-`anon-meta-packages` requires [donations](https://www.whonix.org/wiki/Donate) to stay alive!
+`kicksecure-meta-packages` requires [donations](https://www.whonix.org/wiki/Donate) to stay alive!

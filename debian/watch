@@ -2,5 +2,5 @@
 ## See the file COPYING for copying conditions.
 
 version=4
-opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/anon-meta-packages-$1\.tar\.gz/ \
-  https://github.com/Whonix/anon-meta-packages/tags .*/v?(\d\S+)\.tar\.gz
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/kicksecure-meta-packages-$1\.tar\.gz/ \
+  https://github.com/Whonix/kicksecure-meta-packages/tags .*/v?(\d\S+)\.tar\.gz
