@@ -1,6 +1,14 @@
+# Recommended packages for hosts with nonfreedom hardware design #
+
+A metapackage, which includes nonfree firmware useful for hosts with
+nonfreedom hardware design.
+
+These are not useful in Qubes, since this would be up to Qubes.
+
+Safe to remove, if you know what you are doing.
 ## How to install `kicksecure-meta-packages` using apt-get ##
 
-1\. Download [Whonix's Signing Key]().
+1\. Download Whonix's Signing Key.
 
 ```
 wget https://www.whonix.org/patrick.asc
@@ -11,13 +19,13 @@ Users can [check Whonix Signing Key](https://www.whonix.org/wiki/Whonix_Signing_
 2\. Add Whonix's signing key.
 
 ```
-sudo apt-key --keyring /etc/apt/trusted.gpg.d/whonix.gpg add ~/patrick.asc
+sudo apt-key --keyring /etc/apt/trusted.gpg.d/derivative.gpg add ~/patrick.asc
 ```
 
 3\. Add Whonix's APT repository.
 
 ```
-echo "deb https://deb.whonix.org buster main contrib non-free" | sudo tee /etc/apt/sources.list.d/whonix.list
+echo "deb https://deb.whonix.org buster main contrib non-free" | sudo tee /etc/apt/sources.list.d/derivative.list
 ```
 
 4\. Update your package lists.
@@ -32,9 +40,18 @@ sudo apt-get update
 sudo apt-get install kicksecure-meta-packages
 ```
 
-## How to Build deb Package ##
+## How to Build deb Package from Source Code ##
 
-Replace `apparmor-profile-torbrowser` with the actual name of this package with `kicksecure-meta-packages` and see [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
+Can be build using standard Debian package build tools such as:
+
+```
+dpkg-buildpackage -b
+```
+
+See instructions. (Replace `generic-package` with the actual name of this package `kicksecure-meta-packages`.)
+
+* **A)** [easy](https://www.whonix.org/wiki/Dev/Build_Documentation/generic-package/easy), _OR_
+* **B)** [including verifying software signatures](https://www.whonix.org/wiki/Dev/Build_Documentation/generic-package)
 
 ## Contact ##
 
