@@ -1,3 +1,17 @@
+commit fa0e96fca128a54344d7e84be2fe4dbefdd4cd8c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 13:39:01 2021 -0400
+
+    install curl by default
+    
+    https://www.whonix.org/wiki/Secure_Downloads
+
+commit f1599e7fc6f5fe23ab3ff7ff4a873f7090c32da7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 11:34:54 2021 -0400
+
+    bumped changelog version
+
 commit 1c30a22d36fc7bf24a8a027369b9e68e5e26354d
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Mar 17 10:23:08 2021 -0400
