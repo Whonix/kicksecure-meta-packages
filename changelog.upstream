@@ -1,3 +1,27 @@
+commit 6efb5e0cef2d2c4f83f96c5e0b47c47bfa558cbb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 09:32:10 2021 -0400
+
+    shorten changelog
+
+commit be2c46a69c28b27568b0475fb73f924b10e032ef
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 09:31:25 2021 -0400
+
+    kicksecure
+
+commit adda839e008a81644ca0bb183a9c57e407292475
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 09:30:46 2021 -0400
+
+    deleted:    debian/anon-meta-packages.install
+
+commit 06d7fabb4adc8bbe4717a060256e7f2a99afb09d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 09:25:07 2021 -0400
+
+    bumped changelog version
+
 commit 685fa5a22c6090a46f0e4005f8e4e21bca4fcde3
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Mar 17 09:25:06 2021 -0400
