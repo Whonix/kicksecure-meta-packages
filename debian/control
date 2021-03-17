@@ -330,7 +330,7 @@ Provides: bindp, lkrg, kloak,
  hardened-malloc, hardened-malloc-kicksecure-enable,
  tb-updater, tb-starter, tb-default-browser, secbrowser,
  tirdad, binaries-freedom, monero-gui, xserver-xorg-video-vmware,
- qubes-core-agent-passwordless-root
+ qubes-core-agent-passwordless-root, chromium
 Description: dummy package to satisfy architecture specific dependencies
  A metapackage, which satisfies the dependency on:
  .
@@ -349,6 +349,7 @@ Description: dummy package to satisfy architecture specific dependencies
   - xserver-xorg-video-vmware
   - qubes-core-agent-passwordless-root
   - orca-screen-reader-support
+  - chromium
  .
  This package cannot provide a real implementation of that package. It is only
  a dummy to satisfy the dependency.
