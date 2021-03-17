@@ -1,3 +1,29 @@
+commit 1c30a22d36fc7bf24a8a027369b9e68e5e26354d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 10:23:08 2021 -0400
+
+    add chromium to dummy-dependency to make it more easily uninstallable
+
+commit 9289aff5a1edf66e66f6e10184c2b44a32e321f7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 10:22:03 2021 -0400
+
+    install Chromium by default in Kicksecure
+    
+    https://www.whonix.org/wiki/Dev/Kicksecure_Default_Browser
+
+commit 4d742f1b8bd0c0c47d1522e659483161e3ca9659
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 09:45:16 2021 -0400
+
+    copyright
+
+commit 673d5723146ebb6c15b3090eaa0d646ae3865caf
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 09:33:06 2021 -0400
+
+    bumped changelog version
+
 commit 6efb5e0cef2d2c4f83f96c5e0b47c47bfa558cbb
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Mar 17 09:32:10 2021 -0400
