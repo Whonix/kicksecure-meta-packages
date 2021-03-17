@@ -1,3 +1,33 @@
+commit 685fa5a22c6090a46f0e4005f8e4e21bca4fcde3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 09:25:06 2021 -0400
+
+    readme
+
+commit 309729163e86801ef52932b33e842d941438102a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 09:25:05 2021 -0400
+
+    add debian install file (generated using "genmkfile debinstfile")
+
+commit c3a5eb579cda2b22cbc431376d6995528206cd04
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 08:36:09 2021 -0400
+
+    remove Whonix specific meta packages
+
+commit 8310c6f991f10a3090b72943cb60ee618bedef1a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 17 08:28:44 2021 -0400
+
+    Kicksecure
+
+commit 4b342064afe9f9803e59adf9c0e2e57991aed1d3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Feb 21 06:30:03 2021 -0500
+
+    bumped changelog version
+
 commit 71272dc08ffc3853ade06bda01b2e4d76b85ab50
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Feb 21 06:28:01 2021 -0500
