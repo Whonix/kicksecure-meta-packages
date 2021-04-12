@@ -169,7 +169,8 @@ Description: Recommended applications for hardened Xfce desktop GUI
 
 Package: kicksecure-desktop-applications-recommended
 Architecture: all
-Depends: ristretto, keepassxc,
+Depends: ristretto,
+ keepassxc,
  chromium, chromium-sandbox,
  binaries-freedom | dummy-dependency,
  monero-gui | dummy-dependency,
