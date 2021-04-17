@@ -1,3 +1,29 @@
+commit 493155ea1b77c22b3e0e4749105503b42f03d2c7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Apr 12 14:17:19 2021 -0400
+
+    fix ristretto missing thumbnails and popup by installing tumbler by default
+    
+    add "Depends: tumbler" to whonix-workstation-packages-recommended-gui
+    
+    (tumbler is a "Recommends:" of ristretto)
+    
+    Thanks to @TNT for the bug report!
+    
+    https://forums.whonix.org/t/which-image-viewer-to-install-by-default/9268/3
+
+commit 899c1d6995c75e0f2cc7b742afdf7cad8e4e8da7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Apr 12 14:13:49 2021 -0400
+
+    refactoring
+
+commit e0813e8e3119a5a511a3c9135199d3fda379f736
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Mar 18 07:43:49 2021 -0400
+
+    bumped changelog version
+
 commit 99052a96ef6c2219f13cc8fef5b8aad2ef4bc075
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Mar 18 07:12:56 2021 -0400
