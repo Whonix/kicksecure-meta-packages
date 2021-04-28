@@ -331,7 +331,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Provides: bindp, lkrg, kloak,
  hardened-malloc, hardened-malloc-kicksecure-enable,
- tb-updater, tb-starter, tb-default-browser, secbrowser,
+ tb-updater, tb-starter, tb-default-browser,
  tirdad, binaries-freedom, monero-gui, xserver-xorg-video-vmware,
  qubes-core-agent-passwordless-root,
  chromium, chromium-sandbox
@@ -346,7 +346,6 @@ Description: dummy package to satisfy architecture specific dependencies
   - tb-updater
   - tb-starter
   - tb-default-browser
-  - secbrowser
   - tirdad
   - binaries-freedom
   - monero-gui
