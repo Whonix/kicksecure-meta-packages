@@ -46,7 +46,7 @@ Architecture: all
 Depends: vm-config-dist,
  keyboard-configuration, kbd, acpi-support, console-common, console-setup,
  udev, dmsetup,
- initramfs-tools, os-prober, cryptsetup, zulucrypt-cli, libzulucrypt-plugins,
+ initramfs-tools, cryptsetup, zulucrypt-cli, libzulucrypt-plugins,
  swap-file-creator, tirdad,
  grub-live | grub-live-boot | boot-live,
  ${misc:Depends}
