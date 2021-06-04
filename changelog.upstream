@@ -1,3 +1,19 @@
+commit 31c50ba43b8acd9477f375f1635b931eaaa599f4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jun 4 05:25:00 2021 -0400
+
+    remove os-prober from non-qubes-vm-enhancements-cli
+    
+    since only useful for multi boot which is rarely done inside VMs
+    
+    since it can cause build issues
+
+commit b02dd8e67cea34537f35fe9c27de6d1bdf546dd9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri May 7 05:39:36 2021 -0400
+
+    bumped changelog version
+
 commit 25f3d81398d90653ea632604381b161a63cfadd0
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri May 7 05:37:51 2021 -0400
