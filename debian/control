@@ -89,7 +89,7 @@ Architecture: all
 Depends: init,
  bzip2, file, lsof, most, pciutils, strace, sysfsutils, procps,
  less, haveged, jitterentropy-rngd, locales, e2fsprogs,
- apt-transport-tor, apt-transport-https, ca-certificates,
+ apt-transport-tor, obfs4proxy, apt-transport-https, ca-certificates,
  sdwdate, bootclockrandomization, timesanitycheck,
  busybox, dialog,
  dist-base-files,
@@ -335,7 +335,7 @@ Provides: bindp, lkrg, kloak,
  tb-updater, tb-starter, tb-default-browser,
  tirdad, binaries-freedom, monero-gui, xserver-xorg-video-vmware,
  qubes-core-agent-passwordless-root,
- chromium, chromium-sandbox
+ firefox-esr
 Description: dummy package to satisfy architecture specific dependencies
  A metapackage, which satisfies the dependency on:
  .
@@ -353,8 +353,7 @@ Description: dummy package to satisfy architecture specific dependencies
   - xserver-xorg-video-vmware
   - qubes-core-agent-passwordless-root
   - orca-screen-reader-support
-  - chromium
-  - chromium-sandbox
+  - firefox-esr
  .
  This package cannot provide a real implementation of that package. It is only
  a dummy to satisfy the dependency.
