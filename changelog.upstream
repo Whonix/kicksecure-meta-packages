@@ -1,3 +1,33 @@
+commit 26cefbc4d05faf8c79d1bee38907ac3b50615723
+Merge: c215bef 5bad817
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Jul 15 14:25:50 2021 -0400
+
+    Merge remote-tracking branch 'gitlab-whonix/master'
+
+commit 5bad8176bb3634e4a64d51edb3e58c7d07f94e8a
+Merge: c215bef 7ba9855
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Jul 15 18:23:56 2021 +0000
+
+    Merge branch 'HulaHoop0-master-patch-35409' into 'master'
+    
+    Added obfs4proxy and firefox-esr
+    
+    See merge request whonix/kicksecure-meta-packages!1
+
+commit 7ba985581cfd02092186bc8cbe584ac4c0f086f9
+Author: HulaHoop0 <procmem@riseup.net>
+Date:   Thu Jul 15 16:17:11 2021 +0000
+
+    Added obfs4proxy and firefox-esr
+
+commit c215bef6e2dd20e6b66a589b31fec781fc4595aa
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jun 4 05:30:20 2021 -0400
+
+    bumped changelog version
+
 commit 31c50ba43b8acd9477f375f1635b931eaaa599f4
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Jun 4 05:25:00 2021 -0400
