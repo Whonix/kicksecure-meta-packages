@@ -1,3 +1,27 @@
+commit 4812fad5912c02c0a62154136dbdbd32d5d06742
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 3 05:48:22 2021 -0400
+
+    bullseye
+
+commit 8217dc8eb061aee3c3d445fcd901e79aab9330ea
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Aug 1 16:24:32 2021 -0400
+
+    readme
+
+commit 1269ce8533dd521f670bded1deb33459768ce4de
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Aug 1 16:08:19 2021 -0400
+
+    bullseye: libexo-1-0 -> libexo-2-0
+
+commit c104d68d6bf6dfed5756c2ac91b51224e2f7c6be
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jul 23 06:50:15 2021 -0400
+
+    bumped changelog version
+
 commit 26cefbc4d05faf8c79d1bee38907ac3b50615723
 Merge: c215bef 5bad817
 Author: Patrick Schleizer <adrelanos@whonix.org>
