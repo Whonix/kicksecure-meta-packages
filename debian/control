@@ -222,6 +222,7 @@ Package: kicksecure-cli
 Replaces: hardened-debian-cli
 Architecture: all
 Depends: kicksecure-dependencies-cli,
+ kicksecure-recommended-cli,
  kicksecure-base-files, anon-apt-sources-list,
  ntfs-3g, dosfstools, lvm2,
  ${misc:Depends}
