@@ -1,3 +1,25 @@
+commit 3e08328b9439ab46560c366b45da765e1ac1a409
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 10 18:20:32 2021 -0400
+
+    kicksecure-cli Depends: kicksecure-recommended-cli
+
+commit a0d9bd549e99d7c84dcda226bffb9ffcafb4d02e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 10 18:18:37 2021 -0400
+
+    introduce kicksecure-recommended-cli
+    
+    install fasttrack-archive-keyring by default
+    
+    https://forums.whonix.org/t/install-debian-fasttrack-archive-keyring-by-default/11456
+
+commit 994bc11c6361116c5870d7268eed4e06bdb2fc77
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Aug 5 16:46:32 2021 -0400
+
+    bumped changelog version
+
 commit 4812fad5912c02c0a62154136dbdbd32d5d06742
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Aug 3 05:48:22 2021 -0400
