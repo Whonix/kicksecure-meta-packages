@@ -90,7 +90,7 @@ Architecture: all
 Depends: init,
  bzip2, file, lsof, most, pciutils, strace, sysfsutils, procps,
  less, haveged, jitterentropy-rngd, locales, e2fsprogs,
- apt-transport-tor, obfs4proxy, apt-transport-https, ca-certificates,
+ apt-transport-tor, apt-transport-https, ca-certificates,
  sdwdate, bootclockrandomization, timesanitycheck,
  busybox, dialog,
  dist-base-files,
@@ -118,7 +118,7 @@ Description: Dependencies for hardened systems CLI
 
 Package: kicksecure-recommended-cli
 Architecture: all
-Depends: fasttrack-archive-keyring,
+Depends: fasttrack-archive-keyring, obfs4proxy,
  ${misc:Depends}
 Description: Recommended packages for Kicksecure
  A metapackage, which includes recommended packages to ensure, Kicksecure
