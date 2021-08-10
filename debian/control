@@ -116,6 +116,16 @@ Description: Dependencies for hardened systems CLI
  .
  Do not remove.
 
+Package: kicksecure-recommended-cli
+Architecture: all
+Depends: fasttrack-archive-keyring,
+ ${misc:Depends}
+Description: Recommended packages for Kicksecure
+ A metapackage, which includes recommended packages to ensure, Kicksecure
+ standard tools are available and other useful recommended packages.
+ .
+ Safe to remove, if you know what you are doing.
+
 ## XXX: adding xserver-xorg-video-vmware (used by VirtualBox, yes VirtualBox)
 ##      and xserver-xorg-video-qxl (used by KVM) here is non-ideal as this
 ##      installs these packages on the host and in all virtualizers too.
