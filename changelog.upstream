@@ -1,3 +1,27 @@
+commit 8f1eae9599746177b1e42458ec44ae5c6890c618
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Aug 21 16:54:20 2021 -0400
+
+    add chromium to dummy-dependency so it can be removed
+
+commit 3f17b69a0d73476a5b420ab11c6254f5c0a9bda2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Aug 21 16:53:03 2021 -0400
+
+    refactoring
+
+commit d0151d51e90b0e59b933a25d908c1c5f5f22ac2f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Aug 21 16:52:21 2021 -0400
+
+    binaries-freedom -> electrum
+
+commit abd09c972c0da3a8b7d81d03550868fdadf66708
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Aug 12 17:05:13 2021 -0400
+
+    bumped changelog version
+
 commit 3bfcf3cf9c48fc370b36789b5ae5ad89a7b53ffc
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Aug 10 18:28:09 2021 -0400
