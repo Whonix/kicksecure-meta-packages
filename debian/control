@@ -183,8 +183,8 @@ Architecture: all
 Depends: repository-dist-wizard,
  ristretto, tumbler,
  keepassxc,
- chromium,
- chromium-sandbox,
+ chromium | dummy-dependency,
+ chromium-sandbox | dummy-dependency,
  electrum | dummy-dependency,
  monero-gui | dummy-dependency,
  sdwdate-gui,
@@ -348,7 +348,9 @@ Provides: bindp, lkrg, kloak,
  tb-updater, tb-starter, tb-default-browser,
  tirdad, binaries-freedom, monero-gui, xserver-xorg-video-vmware,
  qubes-core-agent-passwordless-root,
- firefox-esr, electrum
+ firefox-esr,
+ chromium, chromium-sandbox,
+ electrum
 Description: dummy package to satisfy architecture specific dependencies
  A metapackage, which satisfies the dependency on:
  .
@@ -367,6 +369,8 @@ Description: dummy package to satisfy architecture specific dependencies
   - qubes-core-agent-passwordless-root
   - orca-screen-reader-support
   - firefox-esr
+  - chromium
+  - chromium-sandbox
   - electrum
  .
  This package cannot provide a real implementation of that package. It is only
