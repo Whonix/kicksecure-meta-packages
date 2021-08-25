@@ -312,6 +312,30 @@ Description: Kicksecure Xfce GUI for VMs
  .
  Do not remove.
 
+Package: kicksecure-qubes-cli
+Architecture: all
+Depends: kicksecure-cli,
+ ${misc:Depends}
+Description: Default packages for Kicksecure-Qubes CLI
+ A metapackage, which installs packages, for Kicksecure on Qubes without
+ recommended GUI applications.
+ .
+ Currently only depends on kicksecure-cli but useful for future maintenance in
+ case Qubes specific changes will be required.
+ .
+ Do not remove.
+
+Package: kicksecure-qubes-gui
+Architecture: all
+Depends: kicksecure-qubes-cli,
+ kicksecure-desktop-applications-recommended,
+ ${misc:Depends}
+Description: Default packages for Kicksecure-Qubes GUI
+ A metapackage, which installs packages, for Kicksecure on Qubes including
+ recommended GUI applications.
+ .
+ Do not remove.
+
 Package: dummy-contrib
 Architecture: all
 Depends: ${misc:Depends}
