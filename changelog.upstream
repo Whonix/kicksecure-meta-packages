@@ -1,3 +1,15 @@
+commit eac116b98463f9b50812fe4c43b5420181b62b3e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 25 06:53:43 2021 -0400
+
+    introduce `kicksecure-qubes-cli` and `kicksecure-qubes-gui`
+
+commit 90a087034965197fa6d1d2deeccff248ac929a6f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Aug 21 16:55:38 2021 -0400
+
+    bumped changelog version
+
 commit 8f1eae9599746177b1e42458ec44ae5c6890c618
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Aug 21 16:54:20 2021 -0400
