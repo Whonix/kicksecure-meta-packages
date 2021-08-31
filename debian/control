@@ -246,7 +246,8 @@ Description: Kicksecure command line interface CLI
 
 Package: kicksecure-cli-host
 Architecture: all
-Depends: kicksecure-cli,
+Depends: kicksecure-dependencies-system,
+ kicksecure-cli,
  ${misc:Depends}
 Description: Kicksecure Host command line interface CLI
  A metapackage, which installs packages, for Kicksecure CLI Host.
@@ -255,7 +256,8 @@ Description: Kicksecure Host command line interface CLI
 
 Package: kicksecure-cli-vm
 Architecture: all
-Depends: kicksecure-cli,
+Depends: kicksecure-dependencies-system,
+ kicksecure-cli,
  non-qubes-vm-enhancements-cli,
  kicksecure-network-conf,
  ${misc:Depends}
