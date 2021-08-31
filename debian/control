@@ -255,7 +255,8 @@ Description: Kicksecure Host command line interface CLI
 
 Package: kicksecure-cli-vm
 Architecture: all
-Depends: kicksecure-cli, non-qubes-vm-enhancements-cli,
+Depends: kicksecure-cli,
+ non-qubes-vm-enhancements-cli,
  kicksecure-network-conf,
  ${misc:Depends}
 Description: Kicksecure command line interface CLI VMs
