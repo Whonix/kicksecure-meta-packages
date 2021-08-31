@@ -85,6 +85,18 @@ Description: Recommended packages for Audio Support in non-Qubes
  .
  Safe to remove, if you know what you are doing.
 
+Package: kicksecure-dependencies-system
+Architecture: all
+Depends: dracut | initramfs-tools,
+ ${misc:Depends}
+Description: System for hardened systems
+ A metapackage, which installs systemd packages which
+ should be installed on hardened systems.
+ .
+ Currently only depends on boot process related dependencies.
+ .
+ Do not remove.
+
 Package: kicksecure-dependencies-cli
 Architecture: all
 Depends: init,
