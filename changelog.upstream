@@ -1,3 +1,31 @@
+commit 6b42c87bef0ee62fd57f4435cb69997243b3f6d8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 31 14:59:51 2021 -0400
+
+    integrate kicksecure-dependencies-system
+    
+    https://forums.whonix.org/t/replacing-initramfs-tools-with-dracut/4487
+
+commit 033993619b06c4ea82f6c9cc09a53b80b7e91b5d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 31 14:55:30 2021 -0400
+
+    refactoring
+
+commit a586c06595c836122c6f357d07f28541b16f988d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 31 14:53:25 2021 -0400
+
+    introduce kicksecure-dependencies-system
+    
+    https://forums.whonix.org/t/replacing-initramfs-tools-with-dracut/4487
+
+commit 71a04af09ef1f46a65da349292f0c2b70d7bd44d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Aug 29 15:22:32 2021 -0400
+
+    bumped changelog version
+
 commit 3b67c5c18981c7a3072ece594f94f98e9537cb1f
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Aug 29 15:21:33 2021 -0400
