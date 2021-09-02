@@ -1,3 +1,21 @@
+commit c2ad0f2996bee4c36623f0938ae1311ac6a03bf0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Sep 2 17:02:20 2021 -0400
+
+    typo
+
+commit 7c1ed0864ec1916497df39f1660d5fb97ba01e80
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Sep 2 17:01:05 2021 -0400
+
+    kicksecure-dependencies-system Depends: dracut | initramfs-tools | linux-initramfs-tool
+
+commit 96dfea12dfda85552e27f7c244669ffeb2473007
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 31 15:56:13 2021 -0400
+
+    bumped changelog version
+
 commit 6b42c87bef0ee62fd57f4435cb69997243b3f6d8
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Aug 31 14:59:51 2021 -0400
