@@ -90,7 +90,7 @@ Architecture: all
 Depends: dracut | initramfs-tools | linux-initramfs-tool,
  ${misc:Depends}
 Description: System for hardened systems
- A metapackage, which installs systemd packages which
+ A metapackage, which installs system packages which
  should be installed on hardened systems.
  .
  Currently only depends on boot process related dependencies.
