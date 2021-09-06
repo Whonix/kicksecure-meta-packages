@@ -166,7 +166,7 @@ Description: Desktop Depends GUI
 Package: kicksecure-desktop-environment-essential-xfce
 Architecture: all
 Depends: kicksecure-desktop-environment-essential-gui,
- xfce4, lightdm,
+ xfce4, gdm3,
  gnome-brave-icon-theme,
  whonix-xfce-desktop-config, ${misc:Depends}
 Replaces: hardened-desktop-environment-essential-xfce
