@@ -1,3 +1,31 @@
+commit be19b89acba35c5b6e9350b3f4aa5d8c13288ba3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 8 10:45:18 2021 -0400
+
+    install flatpak by default
+    
+    add flatpak kicksecure-recommended-cli
+    
+    https://forums.whonix.org/t/flatpak-as-a-software-source-flathub-as-a-source-of-software/8500
+    
+    https://www.whonix.org/wiki/Install_Software#flatpak
+
+commit 7f4f2930d720836cd4051a4ba6e38959037f2d95
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 8 10:42:35 2021 -0400
+
+    install extrepo by default
+    
+    add extrepo to kicksecure-recommended-cli
+    
+    https://forums.whonix.org/t/extrepo-safely-adding-repos/8539
+
+commit 60b419145f72545d379c2c484f420caedf3a2e88
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 6 11:58:23 2021 -0400
+
+    bumped changelog version
+
 commit e11275ee58b15bbb9ec5d745046b4b369b681c99
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Sep 6 11:57:54 2021 -0400
