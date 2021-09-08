@@ -130,7 +130,7 @@ Description: Dependencies for hardened systems CLI
 
 Package: kicksecure-recommended-cli
 Architecture: all
-Depends: fasttrack-archive-keyring, obfs4proxy,
+Depends: fasttrack-archive-keyring, obfs4proxy, extrepo,
  ${misc:Depends}
 Description: Recommended packages for Kicksecure
  A metapackage, which includes recommended packages to ensure, Kicksecure
