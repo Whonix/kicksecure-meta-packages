@@ -178,8 +178,12 @@ Description: Recommended applications for hardened Xfce Desktop Environment
 
 Package: kicksecure-desktop-applications-xfce
 Architecture: all
+## When depeding on virtual package 'polkit-1-auth-agent', i.e.
+## 'policykit-1-gnome | polkit-1-auth-agent' then 'policykit-1-gnome' will not
+## be installed. At time of writing 'polkit-1-auth-agent' was the only package
+## that 'Provides:' 'polkit-1-auth-agent' anyhow.
 Depends: libexo-2-0, xfce4-terminal, mousepad,
- lxqt-sudo, policykit-1, policykit-1-gnome | polkit-1-auth-agent,
+ lxqt-sudo, policykit-1, policykit-1-gnome,
  p7zip-full, zip, unzip, xz-utils, unar, xarchiver,
  thunar, thunar-archive-plugin, thunar-volman, gvfs,
  ${misc:Depends}
