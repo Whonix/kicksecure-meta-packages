@@ -51,7 +51,6 @@ Depends: vm-config-dist,
  swap-file-creator, tirdad,
  grub-live | grub-live-boot | boot-live,
  ${misc:Depends}
-Replaces: non-qubes-vm-enhancements
 Description: Recommended packages for terminal based VMs CLI
  A metapackage, which includes recommended packages which are useful within
  CLI based non-Qubes virtual machines.
@@ -75,7 +74,6 @@ Description: Recommended packages for graphical VMs GUI
 Package: non-qubes-audio
 Architecture: all
 Depends: libasound2, alsa-utils, pulseaudio, pavucontrol, ${misc:Depends}
-Replaces: non-qubes-vm-audio
 Description: Recommended packages for Audio Support in non-Qubes
  A metapackage, which includes recommended packages which are useful to provide
  audio support.
@@ -120,8 +118,6 @@ Depends: init,
  whonix-initializer,
  hardened-malloc | dummy-dependency,
  ${misc:Depends}
-Replaces: anon-shared-packages-dependencies, anon-shared-packages-recommended,
- hardened-packages-dependencies-cli
 Description: Dependencies for hardened systems CLI
  A metapackage, which installs command line interface (CLI) packages which
  should be installed on hardened systems.
@@ -156,7 +152,6 @@ Depends: xserver-xorg,
  gtk2-engines-pixbuf,
  x11-xserver-utils,
  ${misc:Depends}
-Replaces: anon-shared-desktop, hardened-desktop-environment-essential-gui
 Description: Desktop Depends GUI
  A metapackage, which installs dependencies for desktop environments,
  such as KDE, GNOME, etc.
@@ -169,7 +164,6 @@ Depends: kicksecure-desktop-environment-essential-gui,
  xfce4, gdm3,
  gnome-brave-icon-theme,
  whonix-xfce-desktop-config, ${misc:Depends}
-Replaces: hardened-desktop-environment-essential-xfce
 Description: Recommended applications for hardened Xfce Desktop Environment
  A metapackage, which installs minimal, yet complete enough
  to contain a very basic Xfce Desktop Environment.
@@ -187,7 +181,6 @@ Depends: libexo-2-0, xfce4-terminal, mousepad,
  p7zip-full, zip, unzip, xz-utils, unar, xarchiver,
  thunar, thunar-archive-plugin, thunar-volman, gvfs,
  ${misc:Depends}
-Replaces: hardened-desktop-applications-xfce
 Description: Recommended applications for hardened Xfce desktop GUI
  A metapackage, which installs minimal, yet complete enough
  to contain the very basics, Xfce applications.
@@ -212,7 +205,6 @@ Description: Kicksecure Recommended Desktop Applications
  Do not remove.
 
 Package: apparmor-profiles-kicksecure
-Replaces: apparmor-profiles-whonix, apparmor-profiles-hardened-debian
 Architecture: all
 Depends: apparmor-profile-thunderbird,
  apparmor-profile-torbrowser,
@@ -236,7 +228,6 @@ Description: Dependencies for Kicksecure that changes network related files
  Do not remove.
 
 Package: kicksecure-cli
-Replaces: hardened-debian-cli
 Architecture: all
 Depends: kicksecure-dependencies-cli,
  kicksecure-recommended-cli,
@@ -274,7 +265,6 @@ Description: Kicksecure command line interface CLI VMs
  Do not remove.
 
 Package: kicksecure-xfce
-Replaces: hardened-debian-xfce
 Architecture: all
 Depends: kicksecure-cli,
  kicksecure-desktop-environment-essential-xfce,
