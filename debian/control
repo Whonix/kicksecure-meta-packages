@@ -382,7 +382,6 @@ Provides: bindp, lkrg, kloak,
  tirdad, binaries-freedom, monero-gui, xserver-xorg-video-vmware,
  qubes-core-agent-passwordless-root,
  firefox-esr,
- chromium, chromium-sandbox,
  electrum
 Description: dummy package to satisfy architecture specific dependencies
  A metapackage, which satisfies the dependency on:
@@ -402,8 +401,6 @@ Description: dummy package to satisfy architecture specific dependencies
   - qubes-core-agent-passwordless-root
   - orca-screen-reader-support
   - firefox-esr
-  - chromium
-  - chromium-sandbox
   - electrum
  .
  This package cannot provide a real implementation of that package. It is only
