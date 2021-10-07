@@ -195,6 +195,7 @@ Depends: repository-dist-wizard,
  electrum | dummy-dependency,
  monero-gui | dummy-dependency,
  sdwdate-gui,
+ firefox-esr,
  ${misc:Depends}
 Description: Kicksecure Recommended Desktop Applications
  A metapackage, which installs recommended packages, for graphical user
