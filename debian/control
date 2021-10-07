@@ -192,8 +192,6 @@ Architecture: all
 Depends: repository-dist-wizard,
  ristretto, tumbler,
  keepassxc,
- chromium | dummy-dependency,
- chromium-sandbox | dummy-dependency,
  electrum | dummy-dependency,
  monero-gui | dummy-dependency,
  sdwdate-gui,
