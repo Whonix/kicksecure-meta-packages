@@ -1,3 +1,34 @@
+commit 748f869b6927a43dac2ecc5bea22544b741ae0a4
+Merge: 74b50b1 a973ec1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Oct 15 14:12:22 2021 -0400
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit a973ec1758afce15af75be1a63972edb140a61e2
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Thu Oct 7 18:59:26 2021 +0000
+
+    Added firefox-esr
+
+commit 7a41d45da8d3692484c97d27947183234ff4a79d
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Thu Oct 7 13:55:43 2021 +0000
+
+    chromium removal cont.
+
+commit d458baa0ec28b46ed88ba72273b5748eed54d6c0
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Thu Oct 7 13:53:02 2021 +0000
+
+    chromium removal cont.
+
+commit 74b50b1ba2196ceb426a2047058ced0b76b7ac88
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 21 05:14:22 2021 -0400
+
+    bumped changelog version
+
 commit 92fa630d2b242b350beed87fc0465fa9adf6f6ce
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Sep 21 04:41:14 2021 -0400
