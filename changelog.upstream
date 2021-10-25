@@ -1,3 +1,29 @@
+commit fb962e2c0062c086a0034f5ef3ac2a31416a278b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Oct 25 12:21:29 2021 -0400
+
+    remove fasttrack-archive-keyring from kicksecure-recommended-cli
+    
+    (added to anon-apt-sources-list)
+
+commit fadb6a854dedeaaf8c844e0f2e8a7790653a1557
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Oct 25 12:13:59 2021 -0400
+
+    refactoring
+
+commit 13f4ca0314080f2d2591462252bb929a9a20bfd1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Oct 25 12:12:52 2021 -0400
+
+    add pwgen, codecrypt, gpg, gpg-agent, dirmngr, magic-wormhole, diceware, makepasswd to kicksecure-recommended-cli
+
+commit d41ae27e822079ee6d11ac2dffaa0ec6aec3a38f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Oct 15 18:31:20 2021 -0400
+
+    bumped changelog version
+
 commit 748f869b6927a43dac2ecc5bea22544b741ae0a4
 Merge: 74b50b1 a973ec1
 Author: Patrick Schleizer <adrelanos@whonix.org>
