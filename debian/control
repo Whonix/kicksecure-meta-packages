@@ -126,8 +126,10 @@ Description: Dependencies for hardened systems CLI
 
 Package: kicksecure-recommended-cli
 Architecture: all
-Depends: fasttrack-archive-keyring, obfs4proxy, extrepo, flatpak,
- pwgen, codecrypt, gpg, gpg-agent, dirmngr, magic-wormhole, diceware, makepasswd,
+Depends: fasttrack-archive-keyring, extrepo, flatpak, obfs4proxy,
+ pwgen, diceware, makepasswd,
+ codecrypt, gpg, gpg-agent, dirmngr,
+ magic-wormhole,
  ${misc:Depends}
 Description: Recommended packages for Kicksecure
  A metapackage, which includes recommended packages to ensure, Kicksecure
