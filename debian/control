@@ -390,10 +390,10 @@ Description: dummy nonfree package
 Package: dummy-dependency
 Architecture: all
 Depends: ${misc:Depends}
-Provides: bindp, lkrg, kloak,
+Provides: bindp, kloak,
  hardened-malloc, hardened-malloc-kicksecure-enable,
  tb-updater, tb-starter, tb-default-browser,
- tirdad, binaries-freedom, monero-gui, xserver-xorg-video-vmware,
+ tirdad, monero-gui, xserver-xorg-video-vmware,
  qubes-core-agent-passwordless-root,
  firefox-esr,
  electrum
@@ -401,7 +401,6 @@ Description: dummy package to satisfy architecture specific dependencies
  A metapackage, which satisfies the dependency on:
  .
   - bindp
-  - lkrg
   - kloak
   - hardened-malloc
   - hardened-malloc-kicksecure-enable
@@ -409,11 +408,9 @@ Description: dummy package to satisfy architecture specific dependencies
   - tb-starter
   - tb-default-browser
   - tirdad
-  - binaries-freedom
   - monero-gui
   - xserver-xorg-video-vmware
   - qubes-core-agent-passwordless-root
-  - orca-screen-reader-support
   - firefox-esr
   - electrum
  .
