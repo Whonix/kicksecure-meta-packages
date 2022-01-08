@@ -1,3 +1,41 @@
+commit bdfcbc1d60fd39368715e39b3a5ca6b6d84a2726
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 8 05:40:42 2022 -0500
+
+    improve multiple architecture support / split dummy-dependency package into multiple packages
+
+commit 23de15f976a13a657a2573cd54a150f62e2d35bf
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 8 03:48:52 2022 -0500
+
+    refactoring
+
+commit 3f1cea7767ccc6e01b6a9e5a0d6893571b3d70ba
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 8 03:47:05 2022 -0500
+
+    dummy-dependency: remove lkrg, binaries-freedom, orca-screen-reader-support
+    for simplicity
+    because these packages are not a dependency yet
+
+commit 049f0877f31489172696418915877855bf890057
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 8 03:42:44 2022 -0500
+
+    refactoring
+
+commit 6d0b647ac2430ede550c6a04be8345edf0e8d376
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Nov 9 14:32:31 2021 -0500
+
+    readme
+
+commit 9daa2e09a7d89d0a0214455527e67fbe9b437548
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Oct 25 13:42:40 2021 -0400
+
+    bumped changelog version
+
 commit fb962e2c0062c086a0034f5ef3ac2a31416a278b
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Oct 25 12:21:29 2021 -0400
