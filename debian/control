@@ -347,6 +347,18 @@ Description: Default packages for Kicksecure-Qubes GUI
  .
  Do not remove.
 
+Package: orca-screen-reader-support
+Architecture: all
+Depends: non-qubes-audio,
+ orca, gstreamer1.0-plugins-good, libatk-adaptor, libgail-common,
+ xbrlapi, python3-gst-1.0, speech-dispatcher-espeak-ng, sound-icons,
+ ${misc:Depends}
+Description: dependencies for the orca screen reader
+ A metapackage, which includes depencency packages for the orca screen reader.
+ .
+ Safe to remove if its removal does not remove another metapackage, which is
+ not safe to remove.
+
 Package: dummy-contrib
 Architecture: all
 Depends: ${misc:Depends}
@@ -407,18 +419,6 @@ Description: dummy package to satisfy architecture specific dependencies
  .
  This package cannot provide a real implementation of that package. It is only
  a dummy to satisfy the dependency.
- .
- Safe to remove if its removal does not remove another metapackage, which is
- not safe to remove.
-
-Package: orca-screen-reader-support
-Architecture: all
-Depends: non-qubes-audio,
- orca, gstreamer1.0-plugins-good, libatk-adaptor, libgail-common,
- xbrlapi, python3-gst-1.0, speech-dispatcher-espeak-ng, sound-icons,
- ${misc:Depends}
-Description: dependencies for the orca screen reader
- A metapackage, which includes depencency packages for the orca screen reader.
  .
  Safe to remove if its removal does not remove another metapackage, which is
  not safe to remove.
