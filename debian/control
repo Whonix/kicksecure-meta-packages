@@ -149,7 +149,7 @@ Depends: xserver-xorg,
  xserver-xorg-video-qxl,
  xserver-xorg-video-fbdev,
  xserver-xorg-video-vesa,
- xserver-xorg-video-vmware | dummy-dependency,
+ xserver-xorg-video-vmware | dummy-dependency-xorg-vm,
  libgl1-mesa-dri,
  upower,
  gtk2-engines-pixbuf,
@@ -195,10 +195,10 @@ Architecture: all
 Depends: repository-dist-wizard,
  ristretto, tumbler,
  keepassxc,
- electrum | dummy-dependency,
- monero-gui | dummy-dependency,
+ electrum | dummy-dependency-hardened-electrum,
+ monero-gui | dummy-dependency-hardened-monero-gui,
  sdwdate-gui,
- firefox-esr,
+ firefox-esr | dummy-dependency,
  ${misc:Depends}
 Description: Kicksecure Recommended Desktop Applications
  A metapackage, which installs recommended packages, for graphical user
@@ -390,30 +390,111 @@ Description: dummy nonfree package
 Package: dummy-dependency
 Architecture: all
 Depends: ${misc:Depends}
-Provides: bindp, kloak, tirdad,
- hardened-malloc, hardened-malloc-kicksecure-enable,
- tb-updater, tb-starter, tb-default-browser,
- xserver-xorg-video-vmware,
+Provides: tb-updater, tb-starter, tb-default-browser,
  qubes-core-agent-passwordless-root,
- firefox-esr,
- monero-gui,
- electrum
+ firefox-esr
 Description: dummy package to satisfy architecture specific dependencies
  A metapackage, which satisfies the dependency on:
  .
-  - bindp
-  - kloak
-  - tirdad
-  - hardened-malloc
-  - hardened-malloc-kicksecure-enable
   - tb-updater
   - tb-starter
   - tb-default-browser
-  - xserver-xorg-video-vmware
   - qubes-core-agent-passwordless-root
   - firefox-esr
-  - monero-gui
-  - electrum
+ .
+ This package cannot provide a real implementation of that package. It is only
+ a dummy to satisfy the dependency.
+ .
+ Safe to remove if its removal does not remove another metapackage, which is
+ not safe to remove.
+
+Package: dummy-dependency-bindp
+Architecture: all
+Depends: ${misc:Depends}
+Provides: bindp
+Description: dummy package to satisfy architecture specific dependency bindp
+ A metapackage, which satisfies the dependency on bindp.
+ .
+ This package cannot provide a real implementation of that package. It is only
+ a dummy to satisfy the dependency.
+ .
+ Safe to remove if its removal does not remove another metapackage, which is
+ not safe to remove.
+
+Package: dummy-dependency-kloak
+Architecture: all
+Depends: ${misc:Depends}
+Provides: kloak
+Description: dummy package to satisfy architecture specific dependency kloak
+ A metapackage, which satisfies the dependency on kloak.
+ .
+ This package cannot provide a real implementation of that package. It is only
+ a dummy to satisfy the dependency.
+ .
+ Safe to remove if its removal does not remove another metapackage, which is
+ not safe to remove.
+
+Package: dummy-dependency-tirdad
+Architecture: all
+Depends: ${misc:Depends}
+Provides: tirdad
+Description: dummy package to satisfy architecture specific dependency tirdad
+ A metapackage, which satisfies the dependency on tirdad.
+ .
+ This package cannot provide a real implementation of that package. It is only
+ a dummy to satisfy the dependency.
+ .
+ Safe to remove if its removal does not remove another metapackage, which is
+ not safe to remove.
+
+Package: dummy-dependency-hardened-malloc
+Architecture: all
+Depends: ${misc:Depends}
+Provides: hardened-malloc, hardened-malloc-kicksecure-enable
+Description: dummy package to satisfy architecture specific dependency hardened-malloc
+ A metapackage, which satisfies the dependency on:
+ .
+ - hardened-malloc
+ - hardened-malloc-kicksecure-enable
+ .
+ This package cannot provide a real implementation of that package. It is only
+ a dummy to satisfy the dependency.
+ .
+ Safe to remove if its removal does not remove another metapackage, which is
+ not safe to remove.
+
+Package: dummy-dependency-hardened-monero-gui
+Architecture: all
+Depends: ${misc:Depends}
+Provides: monero-gui
+Description: dummy package to satisfy architecture specific dependency monero-gui
+ A metapackage, which satisfies the dependency on monero-gui.
+ .
+ This package cannot provide a real implementation of that package. It is only
+ a dummy to satisfy the dependency.
+ .
+ Safe to remove if its removal does not remove another metapackage, which is
+ not safe to remove.
+
+Package: dummy-dependency-hardened-electrum
+Architecture: all
+Depends: ${misc:Depends}
+Provides: electrum
+Description: dummy package to satisfy architecture specific dependency electrum
+ A metapackage, which satisfies the dependency on electrum.
+ .
+ This package cannot provide a real implementation of that package. It is only
+ a dummy to satisfy the dependency.
+ .
+ Safe to remove if its removal does not remove another metapackage, which is
+ not safe to remove.
+
+Package: dummy-dependency-xorg-vm
+Architecture: all
+Depends: ${misc:Depends}
+Provides: xserver-xorg-video-vmware
+Description: dummy dependency xserver-xorg-video-vmware
+ A metapackage, which satisfies the dependency on xserver-xorg-video-vmware.
  .
  This package cannot provide a real implementation of that package. It is only
  a dummy to satisfy the dependency.
