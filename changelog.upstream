@@ -1,3 +1,15 @@
+commit d7e51eebebe6faeb1a580cc7cde83412da9e68f3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 15 09:17:31 2022 -0500
+
+    hardened-malloc-kicksecure-enable -> hardened-malloc-light-enable
+
+commit 3ac4687e6f8bd73cee82d0058023fcb646adf080
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 8 05:43:22 2022 -0500
+
+    bumped changelog version
+
 commit bdfcbc1d60fd39368715e39b3a5ca6b6d84a2726
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Jan 8 05:40:42 2022 -0500
