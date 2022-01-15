@@ -450,12 +450,13 @@ Description: dummy package to satisfy architecture specific dependency tirdad
 Package: dummy-dependency-hardened-malloc
 Architecture: all
 Depends: ${misc:Depends}
-Provides: hardened-malloc, hardened-malloc-kicksecure-enable, hardened-malloc-light-enable
+Provides: hardened-malloc
+## TODO:
+## Provides: hardened-malloc-kicksecure-enable, hardened-malloc-light-enable
 Description: dummy package to satisfy architecture specific dependency hardened-malloc
  A metapackage, which satisfies the dependency on:
  .
- hardened-malloc, hardened-malloc-kicksecure-enable (legacy) and
- hardened-malloc-light-enable.
+ hardened-malloc
  .
  This package cannot provide a real implementation of that package. It is only
  a dummy to satisfy the dependency.
