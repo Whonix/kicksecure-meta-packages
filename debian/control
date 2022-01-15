@@ -454,9 +454,8 @@ Provides: hardened-malloc, hardened-malloc-kicksecure-enable, hardened-malloc-li
 Description: dummy package to satisfy architecture specific dependency hardened-malloc
  A metapackage, which satisfies the dependency on:
  .
- - hardened-malloc
- - hardened-malloc-kicksecure-enable (legacy)
- - hardened-malloc-light-enable
+ hardened-malloc, hardened-malloc-kicksecure-enable (legacy) and
+ hardened-malloc-light-enable.
  .
  This package cannot provide a real implementation of that package. It is only
  a dummy to satisfy the dependency.
