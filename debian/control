@@ -126,7 +126,7 @@ Description: Dependencies for hardened systems CLI
 
 Package: kicksecure-recommended-cli
 Architecture: all
-Depends: extrepo, flatpak, obfs4proxy,
+Depends: extrepo, equivs, flatpak, obfs4proxy,
  pwgen, diceware, makepasswd,
  codecrypt, gpg, gpg-agent, dirmngr,
  magic-wormhole,
