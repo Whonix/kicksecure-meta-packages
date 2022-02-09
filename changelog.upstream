@@ -1,3 +1,15 @@
+commit 80704660561357a7f377dbc562968386b2173613
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 9 06:35:14 2022 -0500
+
+    add equivs to kicksecure-recommended-cli
+
+commit 995cccf645909b8dc261511c51643f986804e023
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 15 11:25:33 2022 -0500
+
+    bumped changelog version
+
 commit cb20b19da6400f83b59bd5f5b601c9bbf20e86d4
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Jan 15 10:44:36 2022 -0500
