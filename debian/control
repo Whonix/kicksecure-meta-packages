@@ -111,6 +111,8 @@ Depends: init,
  sensible-utils,
  secure-delete,
  openvpn, curl, wget,
+ usability-misc, open-link-confirmation,
+ hardened-malloc | dummy-dependency,
  apt-utils, apt-transport-tor, apt-transport-https,
  ca-certificates,
  busybox, dialog, menu,
@@ -118,9 +120,7 @@ Depends: init,
  security-misc,
  repository-dist,
  sdwdate, bootclockrandomization, timesanitycheck,
- usability-misc, open-link-confirmation,
  whonix-initializer,
- hardened-malloc | dummy-dependency,
  ${misc:Depends}
 Description: Dependencies for hardened systems CLI
  A metapackage, which installs command line interface (CLI) packages which
