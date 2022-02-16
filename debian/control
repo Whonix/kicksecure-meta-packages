@@ -134,8 +134,8 @@ Depends:
  hardened-malloc | dummy-dependency,
  extrepo, equivs, flatpak, obfs4proxy,
  pwgen, diceware, makepasswd,
- codecrypt, gpg, gpg-agent, dirmngr,
- magic-wormhole,
+ codecrypt, magic-wormhole,
+ gpg, gpg-agent, dirmngr,
  ${misc:Depends}
 Description: Recommended packages for Kicksecure
  A metapackage, which includes recommended packages to ensure, Kicksecure
