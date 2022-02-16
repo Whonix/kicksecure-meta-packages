@@ -199,6 +199,7 @@ Description: Recommended applications for hardened Xfce desktop GUI
 Package: kicksecure-desktop-applications-recommended
 Architecture: all
 Depends: repository-dist-wizard,
+ setup-wizard-dist,
  ristretto, tumbler,
  keepassxc,
  electrum | dummy-dependency-hardened-electrum,
