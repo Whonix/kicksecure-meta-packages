@@ -1,3 +1,72 @@
+commit 2e4eec07603c539807a5429f26ef81fbe7769c0a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 15:15:58 2022 -0500
+
+    move a lot packages from kicksecure-dependencies-cli to kicksecure-dependencies-cli
+    since this is more apprpriate.
+    
+    haveged, jitterentropy-rngd,
+    man-db,
+    bzip2,
+    net-tools, dnsutils, iputils-ping,
+    file, lsof, pciutils, strace, sysfsutils, procps, e2fsprogs,
+    less, most, apparmor-utils,
+    bash-completion, nano,
+    udisks2, libblockdev-crypto2,
+    sensible-utils,
+    secure-delete,
+    openvpn, curl, wget,
+    usability-misc, open-link-confirmation,
+    hardened-malloc | dummy-dependency
+
+commit 03bcdb84e3f20d0de6415850fb235a4b2a1ca9d9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 15:15:03 2022 -0500
+
+    refactoring
+
+commit c2b88c37692779e0d2cc2a3e55323436f396fdfb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 15:14:29 2022 -0500
+
+    refactoring
+
+commit f30e968ecf835cf724561f9e4038fee736cb41e8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 15:10:40 2022 -0500
+
+    refactoring
+
+commit 9f39e1b6742d49065dea7124fe5ca536645db455
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 15:08:54 2022 -0500
+
+    refactoring
+
+commit 849484e840adfc27a99c091c94fd8ec33c4cb430
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 15:02:49 2022 -0500
+
+    refactoring
+
+commit 6eb5564c1694491d74fcb1cab4913e8f17cac884
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 15:01:30 2022 -0500
+
+    refactoring
+
+commit 19eaae178b143662f0309a2505705d943cf97cd6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 15:00:34 2022 -0500
+
+    no longer install zsh by default
+
+commit 91ca76cf13ab46c48db5f9473adca2968fdb28f8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 9 08:00:42 2022 -0500
+
+    bumped changelog version
+
 commit 80704660561357a7f377dbc562968386b2173613
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Feb 9 06:35:14 2022 -0500
