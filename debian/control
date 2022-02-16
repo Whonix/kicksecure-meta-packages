@@ -129,7 +129,7 @@ Depends:
  sensible-utils,
  secure-delete,
  openvpn, curl, wget,
- usability-misc, open-link-confirmation,
+ systemcheck, usability-misc, open-link-confirmation,
  hardened-malloc | dummy-dependency,
  extrepo, equivs, flatpak, obfs4proxy,
  pwgen, diceware, makepasswd,
