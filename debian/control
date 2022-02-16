@@ -100,6 +100,7 @@ Architecture: all
 Depends: init,
  locales,
  dist-base-files, apparmor-profile-dist,
+ setup-dist,
  apt-utils, apt-transport-tor, apt-transport-https,
  ca-certificates,
  busybox, dialog, menu,
