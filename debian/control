@@ -250,6 +250,7 @@ Package: kicksecure-cli
 Architecture: all
 Depends: kicksecure-dependencies-cli,
  kicksecure-recommended-cli,
+ kicksecure-default-applications-cli,
  kicksecure-base-files, anon-apt-sources-list,
  ntfs-3g, dosfstools, lvm2,
  ${misc:Depends}
