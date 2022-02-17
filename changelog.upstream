@@ -1,3 +1,51 @@
+commit 779edad4544c08a6f9ec6a56e192fff5b35592d6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 19:20:24 2022 -0500
+
+    refactoring
+
+commit ea7851dedf6b7a7f5df9b6b3a71d35726793e116
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 19:19:10 2022 -0500
+
+    install kicksecure-default-applications-cli by default in Kicksecure
+
+commit f1790451a9ccb3883a3fef70963cdf7266a8a271
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 19:02:16 2022 -0500
+
+    split into kicksecure-recommended-cli and kicksecure-default-applications-cli
+
+commit bdb545bccbf7e68982d6adbaa64bf5db7f66a9c0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 18:57:44 2022 -0500
+
+    refactoring
+
+commit dbb182f8b4de5f13f3f82efc103f06a5236832f0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 18:52:11 2022 -0500
+
+    add setup-wizard-dist to kicksecure-desktop-applications-recommended
+
+commit 4dd31bd6d25e43a8cf4d675b8f030d13fd7d1057
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 18:45:57 2022 -0500
+
+    add setup-dist to kicksecure-dependencies-cli
+
+commit 0062df31d04a136b013bccabfac9c4f28e2e699d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 18:44:14 2022 -0500
+
+    add systemcheck to kicksecure-recommended-cli
+
+commit 7633f790266654b1b7b58ec0e48d9bf29d822a88
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 15:27:55 2022 -0500
+
+    bumped changelog version
+
 commit 2e4eec07603c539807a5429f26ef81fbe7769c0a
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Feb 16 15:15:58 2022 -0500
