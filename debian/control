@@ -142,7 +142,7 @@ Description: Recommended packages for Kicksecure
 Package: kicksecure-default-applications-cli
 Architecture: all
 Depends:
- extrepo, equivs, flatpak, obfs4proxy,
+ extrepo, equivs, flatpak,
  pwgen, diceware, makepasswd,
  codecrypt, magic-wormhole,
  gpg, gpg-agent, dirmngr,
@@ -252,6 +252,7 @@ Depends: kicksecure-dependencies-cli,
  kicksecure-recommended-cli,
  kicksecure-default-applications-cli,
  kicksecure-base-files, anon-apt-sources-list,
+ obfs4proxy,
  ntfs-3g, dosfstools, lvm2,
  ${misc:Depends}
 Description: Kicksecure command line interface CLI
