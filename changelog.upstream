@@ -1,3 +1,15 @@
+commit f4e37f11485120e60ebee187c9745727193fdf73
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Mar 10 07:02:44 2022 -0500
+
+    add iotop to kicksecure-recommended-cli
+
+commit 20a474fbfc531de60f6f972758c844d9559bd418
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Feb 16 19:21:39 2022 -0500
+
+    bumped changelog version
+
 commit 779edad4544c08a6f9ec6a56e192fff5b35592d6
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Feb 16 19:20:24 2022 -0500
