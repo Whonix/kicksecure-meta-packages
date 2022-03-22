@@ -14,7 +14,7 @@ Rules-Requires-Root: no
 
 Package: firmware-nonfreedom
 Architecture: all
-Pre-Depends: whonix-legacy
+Pre-Depends: legacy-dist
 Depends: ${misc:Depends},
  firmware-amd-graphics,
  firmware-atheros,
@@ -108,7 +108,7 @@ Depends: init,
  security-misc,
  repository-dist,
  sdwdate, bootclockrandomization, timesanitycheck,
- whonix-initializer,
+ initializer-dist,
  ${misc:Depends}
 Description: Dependencies for hardened systems CLI
  A metapackage, which installs command line interface (CLI) packages which
@@ -182,7 +182,7 @@ Architecture: all
 Depends: kicksecure-desktop-environment-essential-gui,
  xfce4, gdm3,
  gnome-brave-icon-theme,
- whonix-xfce-desktop-config, ${misc:Depends}
+ desktop-config-dist, ${misc:Depends}
 Description: Recommended applications for hardened Xfce Desktop Environment
  A metapackage, which installs minimal, yet complete enough
  to contain a very basic Xfce Desktop Environment.
