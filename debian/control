@@ -230,8 +230,8 @@ Depends: apparmor-profile-thunderbird,
  apparmor-profile-hexchat,
  ${misc:Depends}
 Description: AppArmor profiles developed by the Kicksecure Team
- A metapackage, which installs apparmor profiles developed by the Hardened
- Debian team.
+ A metapackage, which installs apparmor profiles developed by the Kicksecure
+ team.
  .
  Increases security.
  .
