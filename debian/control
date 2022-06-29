@@ -225,13 +225,23 @@ Description: Kicksecure Recommended Desktop Applications
 
 Package: apparmor-profiles-kicksecure
 Architecture: all
-Depends: apparmor-profile-thunderbird,
+Depends: apparmor-profiles,
+ apparmor-profiles-extra,
+ apparmor-profile-thunderbird,
  apparmor-profile-torbrowser,
  apparmor-profile-hexchat,
  ${misc:Depends}
 Description: AppArmor profiles developed by the Kicksecure Team
- A metapackage, which installs apparmor profiles developed by the Kicksecure
- team.
+ A metapackage, which installs apparmor profiles packages from Debian:
+ .
+  * apparmor-profile
+  * apparmor-profiles-extra
+ .
+ as well as installs apparmor profiles developed by the Kicksecure team:
+ .
+  * apparmor-profile-thunderbird
+  * apparmor-profile-torbrowser
+  * apparmor-profile-hexchat
  .
  Increases security.
  .
