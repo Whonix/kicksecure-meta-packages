@@ -1,3 +1,37 @@
+commit 9aa5952b732a6a665475fb5fee38341581c7c077
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 29 03:05:55 2022 -0400
+
+    Install `apparmor-profiles-kicksecure` by default.
+    
+    This results in installing the following packages by default:
+    
+    - apparmor-profiles
+    - apparmor-profiles-extra
+    - apparmor-profile-thunderbird
+    - apparmor-profile-torbrowser
+    - apparmor-profile-hexchat
+    
+    This was implemented by adding `Depends: apparmor-profiles-kicksecure` to package `kicksecure-recommended-cli`.
+    
+    Also provide package `dummy-dependency-apparmor-profiles-kicksecure` as an easy opt-out.
+    
+    https://forums.whonix.org/t/install-apparmor-profiles-apparmor-profiles-extra-apparmor-profiles-kicksecure-by-default/13753
+
+commit ad375c197fb172cab84792ce024d3c3808143ec7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 29 02:58:09 2022 -0400
+
+    `apparmor-profiles` and `apparmor-profiles-extra` to `apparmor-profiles-kicksecure`
+    
+    https://forums.whonix.org/t/install-apparmor-profiles-apparmor-profiles-extra-apparmor-profiles-kicksecure-by-default/13753
+
+commit 17949cddf79cd59e92d159f4666ca7f24cdc7d27
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 8 10:40:36 2022 -0400
+
+    bumped changelog version
+
 commit 1145bb733b0df21079c4a4b28fd4c1f7e62424b1
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jun 8 07:08:52 2022 -0400
