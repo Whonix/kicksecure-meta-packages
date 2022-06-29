@@ -132,6 +132,7 @@ Depends:
  openvpn, curl, wget,
  systemcheck, usability-misc, open-link-confirmation,
  hardened-malloc | dummy-dependency,
+ apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicksecure,
  ${misc:Depends}
 Description: Recommended packages for Kicksecure
  A metapackage, which includes recommended packages to ensure, Kicksecure
@@ -525,6 +526,19 @@ Depends: ${misc:Depends}
 Provides: xserver-xorg-video-vmware
 Description: dummy dependency xserver-xorg-video-vmware
  A metapackage, which satisfies the dependency on xserver-xorg-video-vmware.
+ .
+ This package cannot provide a real implementation of that package. It is only
+ a dummy to satisfy the dependency.
+ .
+ Safe to remove if its removal does not remove another metapackage, which is
+ not safe to remove.
+
+Package: dummy-dependency-apparmor-profiles-kicksecure
+Architecture: all
+Depends: ${misc:Depends}
+Provides: apparmor-profiles-kicksecure
+Description: dummy package apparmor-profiles-kicksecure
+ A metapackage, which satisfies the dependency on apparmor-profiles-kicksecure.
  .
  This package cannot provide a real implementation of that package. It is only
  a dummy to satisfy the dependency.
