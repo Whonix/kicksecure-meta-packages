@@ -213,7 +213,7 @@ Depends: repository-dist-wizard,
  setup-wizard-dist,
  ristretto, tumbler,
  keepassxc,
- electrum | dummy-dependency-hardened-electrum,
+ electrum | dummy-dependency-electrum,
  monero-gui | dummy-dependency-monero-gui,
  sdwdate-gui,
  firefox-esr | dummy-dependency,
@@ -508,10 +508,11 @@ Description: dummy package to satisfy architecture specific dependency monero-gu
  Safe to remove if its removal does not remove another metapackage, which is
  not safe to remove.
 
-Package: dummy-dependency-hardened-electrum
+Package: dummy-dependency-electrum
 Architecture: all
 Depends: ${misc:Depends}
-Provides: electrum
+Provides: electrum, dummy-dependency-hardened-electrum
+Replaces: dummy-dependency-hardened-electrum
 Description: dummy package to satisfy architecture specific dependency electrum
  A metapackage, which satisfies the dependency on electrum.
  .
