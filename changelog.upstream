@@ -1,3 +1,21 @@
+commit 4187100804571a2d83ee434c58d0103428553be1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 23 08:17:45 2022 -0400
+
+    fix package name `dummy-dependency-hardened-electrum` -> `dummy-dependency-electrum`
+
+commit f5ec30f504c100926d41afaded286211de73a536
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 23 08:15:48 2022 -0400
+
+    fix package name `dummy-dependency-hardened-monero-gui` -> `dummy-dependency-monero-gui`
+
+commit 10d627bb393cc3b9ab0e6aa2f9852e71632cda0f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 29 07:08:16 2022 -0400
+
+    bumped changelog version
+
 commit 9aa5952b732a6a665475fb5fee38341581c7c077
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jun 29 03:05:55 2022 -0400
