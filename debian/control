@@ -171,6 +171,7 @@ Depends: xserver-xorg,
  upower,
  gtk2-engines-pixbuf,
  x11-xserver-utils,
+ desktop-config-dist, desktop-config-dist-dependencies,
  ${misc:Depends}
 Description: Desktop Depends GUI
  A metapackage, which installs dependencies for desktop environments,
@@ -183,7 +184,6 @@ Architecture: all
 Depends: kicksecure-desktop-environment-essential-gui,
  xfce4, gdm3,
  gnome-brave-icon-theme,
- desktop-config-dist, desktop-config-dist-dependencies,
  ${misc:Depends}
 Description: Recommended applications for hardened Xfce Desktop Environment
  A metapackage, which installs minimal, yet complete enough
