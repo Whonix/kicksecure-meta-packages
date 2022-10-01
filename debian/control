@@ -183,7 +183,8 @@ Architecture: all
 Depends: kicksecure-desktop-environment-essential-gui,
  xfce4, gdm3,
  gnome-brave-icon-theme,
- desktop-config-dist, ${misc:Depends}
+ desktop-config-dist,
+ ${misc:Depends}
 Description: Recommended applications for hardened Xfce Desktop Environment
  A metapackage, which installs minimal, yet complete enough
  to contain a very basic Xfce Desktop Environment.
