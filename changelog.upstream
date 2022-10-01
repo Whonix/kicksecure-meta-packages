@@ -1,3 +1,44 @@
+commit 061f6655a3e74f4415fa2cdda971603dce6715a2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 1 10:26:36 2022 -0400
+
+    `kicksecure-dependencies-cli`: `Depends:` `desktop-config-dist`
+    
+    because `dist-base-files` sets default shell to `zsh` but the zsh configuration
+    folder is shipped by package `desktop-config-dist`.
+    
+    https://forums.whonix.org/t/change-default-shell-from-bash-to-zsh-by-default/14792
+
+commit 5adbe96831ea4d4c8ffaa636d8fdfefc2db197f0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 1 10:13:47 2022 -0400
+
+    move to kicksecure-desktop-environment-essential-gui
+    
+    desktop-config-dist, desktop-config-dist-dependencies
+    
+    https://forums.whonix.org/t/change-default-shell-from-bash-to-zsh-by-default/14792
+
+commit a04c86a1e40e95c87a356a0c0a2fb932897d5a2d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 1 10:12:08 2022 -0400
+
+    add desktop-config-dist-dependencies
+    
+    https://forums.whonix.org/t/change-default-shell-from-bash-to-zsh-by-default/14792
+
+commit 78930ed0dac34461a10a250c65e8cfc9ad505a27
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 1 10:06:33 2022 -0400
+
+    refactoring
+
+commit e3df4f714dd4dd548c90b6081668e861280092bb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 23 08:18:07 2022 -0400
+
+    bumped changelog version
+
 commit 4187100804571a2d83ee434c58d0103428553be1
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Jul 23 08:17:45 2022 -0400
