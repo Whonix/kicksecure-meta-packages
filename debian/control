@@ -6,9 +6,9 @@ Section: metapackages
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@whonix.org>
 Build-Depends: debhelper (>= 13), debhelper-compat (= 13)
-Homepage: https://github.com/Whonix/kicksecure-meta-packages
-Vcs-Browser: https://github.com/Whonix/kicksecure-meta-packages
-Vcs-Git: https://github.com/Whonix/kicksecure-meta-packages.git
+Homepage: https://github.com/Kicksecure/kicksecure-meta-packages
+Vcs-Browser: https://github.com/Kicksecure/kicksecure-meta-packages
+Vcs-Git: https://github.com/Kicksecure/kicksecure-meta-packages.git
 Standards-Version: 4.5.1
 Rules-Requires-Root: no
 
