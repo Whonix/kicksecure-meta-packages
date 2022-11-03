@@ -1,3 +1,25 @@
+commit e3e4a9ab8e5b90d99d6e039f618cf98e5cd0d21b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 3 13:28:36 2022 -0400
+
+    install vlc media player by default
+    
+    https://forums.kicksecure.com/t/add-remove-extra-packages/135
+
+commit 5804a773bb8076050876c3dede21465a9de83a36
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 3 13:26:45 2022 -0400
+
+    no longer install wget by default
+    
+    https://forums.kicksecure.com/t/add-remove-extra-packages/135
+
+commit 43598daaaad399f2c31b706f173c60f0c22f9fff
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Oct 3 06:41:32 2022 -0400
+
+    bumped changelog version
+
 commit 92fc3cb652475a82580ddd8cbe4d1450a63ed345
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Oct 3 06:39:26 2022 -0400
