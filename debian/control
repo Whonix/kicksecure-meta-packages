@@ -217,6 +217,7 @@ Depends: repository-dist-wizard,
  electrum | dummy-dependency-electrum,
  monero-gui | dummy-dependency-monero-gui,
  sdwdate-gui,
+ vlc,
  firefox-esr | dummy-dependency,
  ${misc:Depends}
 Description: Kicksecure Recommended Desktop Applications
