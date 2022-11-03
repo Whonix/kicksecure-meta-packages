@@ -129,7 +129,7 @@ Depends:
  udisks2, libblockdev-crypto2,
  sensible-utils,
  secure-delete,
- openvpn, curl, wget,
+ openvpn, curl,
  systemcheck, usability-misc, open-link-confirmation,
  hardened-malloc | dummy-dependency,
  apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicksecure,
