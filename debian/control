@@ -210,15 +210,15 @@ Description: Recommended applications for hardened Xfce desktop GUI
 
 Package: kicksecure-desktop-applications-recommended
 Architecture: all
-Depends: repository-dist-wizard,
- setup-wizard-dist,
- ristretto, tumbler,
+Depends: ristretto, tumbler,
  keepassxc,
+ vlc, hunspell-en-us, gpa,
  electrum | dummy-dependency-electrum,
  monero-gui | dummy-dependency-monero-gui,
- sdwdate-gui,
- vlc,
  firefox-esr | dummy-dependency,
+ sdwdate-gui,
+ repository-dist-wizard,
+ setup-wizard-dist,
  ${misc:Depends}
 Description: Kicksecure Recommended Desktop Applications
  A metapackage, which installs recommended packages, for graphical user
