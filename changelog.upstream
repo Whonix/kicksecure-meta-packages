@@ -1,3 +1,24 @@
+commit 7390041ff4f4df3cebdd1ce794a4dec61af2f804
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Nov 5 09:29:25 2022 -0400
+
+    install more packages by default
+    
+    - hunspell-en-us
+    - gpa
+    - ffmpeg
+    - pinentry-qt (or pinentry-x11)
+    - pdf
+    - youtube-dl
+    
+    https://forums.kicksecure.com/t/add-remove-extra-packages/135/4
+
+commit 4a07e7882e5339c933646fdc3d2228d77a04fbfa
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 3 13:40:55 2022 -0400
+
+    bumped changelog version
+
 commit e3e4a9ab8e5b90d99d6e039f618cf98e5cd0d21b
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Nov 3 13:28:36 2022 -0400
