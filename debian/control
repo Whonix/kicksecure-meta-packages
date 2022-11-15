@@ -219,6 +219,7 @@ Depends: ristretto, tumbler,
  sdwdate-gui,
  repository-dist-wizard,
  setup-wizard-dist,
+ whonix-welcome-page,
  ${misc:Depends}
 Description: Kicksecure Recommended Desktop Applications
  A metapackage, which installs recommended packages, for graphical user
