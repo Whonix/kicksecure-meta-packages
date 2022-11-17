@@ -1,3 +1,15 @@
+commit a8b61921acd461f2306a3e928f3b984e69642a31
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Nov 15 14:00:14 2022 -0500
+
+    add kicksecure-welcome-page to kicksecure-desktop-applications-recommended
+
+commit 2391eb1827b3788534649e29a77514f8e25394b3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Nov 5 09:33:33 2022 -0400
+
+    bumped changelog version
+
 commit 7390041ff4f4df3cebdd1ce794a4dec61af2f804
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 5 09:29:25 2022 -0400
