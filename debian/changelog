@@ -1,3 +1,9 @@
+kicksecure-meta-packages (3:25.5-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 18 Nov 2022 12:39:49 +0000
+
 kicksecure-meta-packages (3:25.4-1) unstable; urgency=medium
 
   * New upstream version (local package).
