@@ -155,7 +155,7 @@ Description: Default applications packages for Kicksecure
  Safe to remove, if you know what you are doing.
 
 ## XXX: adding xserver-xorg-video-vmware (used by VirtualBox, yes VirtualBox)
-##      and xserver-xorg-video-qxl (used by KVM) here is non-ideal as this
+##      here is non-ideal as this
 ##      installs these packages on the host and in all virtualizers too.
 ##
 ## xserver-xorg-video-vmware is required by VirtualBox which uses VMWare's
@@ -163,7 +163,6 @@ Description: Default applications packages for Kicksecure
 Package: kicksecure-desktop-environment-essential-gui
 Architecture: all
 Depends: xserver-xorg,
- xserver-xorg-video-qxl,
  xserver-xorg-video-fbdev,
  xserver-xorg-video-vesa,
  xserver-xorg-video-vmware | dummy-dependency-xorg-vm,
