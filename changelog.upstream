@@ -1,3 +1,17 @@
+commit a7804d99b19cf8b728bb1da17591e3249afc2a8f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 24 07:23:03 2022 -0500
+
+    remove dependency on xserver-xorg-video-qxl
+    
+    https://forums.whonix.org/t/help-welcome-kvm-development-staying-the-course/166/501
+
+commit 02d418a3cf531eaa798c9e4b3f8b0ff2aa679ced
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Nov 18 07:39:49 2022 -0500
+
+    bumped changelog version
+
 commit ca717d75eb6e877de1b7a5c3af37280a80af59b1
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Nov 18 04:01:10 2022 -0500
