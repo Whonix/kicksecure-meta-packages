@@ -1,3 +1,15 @@
+commit 011d11b4664bc5a3e9aab86e1623f9f7cef71c17
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 30 07:44:39 2023 -0500
+
+    consistent use of `Pre-Depends: legacy-dist`
+
+commit 0016dc73305d4dd84f80c352bfc9b301c6112219
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 24 07:23:53 2022 -0500
+
+    bumped changelog version
+
 commit a7804d99b19cf8b728bb1da17591e3249afc2a8f
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Nov 24 07:23:03 2022 -0500
