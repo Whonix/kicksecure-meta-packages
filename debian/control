@@ -44,6 +44,7 @@ Description: Recommended packages for hosts with nonfreedom hardware design
 
 Package: non-qubes-vm-enhancements-cli
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: vm-config-dist,
  keyboard-configuration, kbd, acpi-support, console-common, console-setup,
  udev, dmsetup,
@@ -61,6 +62,7 @@ Description: Recommended packages for terminal based VMs CLI
 
 Package: non-qubes-vm-enhancements-gui
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: non-qubes-vm-enhancements-cli, zulucrypt-gui, rads,
  ${misc:Depends}
 Description: Recommended packages for graphical VMs GUI
@@ -73,6 +75,7 @@ Description: Recommended packages for graphical VMs GUI
 
 Package: non-qubes-audio
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: libasound2, alsa-utils, pulseaudio, pavucontrol, ${misc:Depends}
 Description: Recommended packages for Audio Support in non-Qubes
  A metapackage, which includes recommended packages which are useful to provide
@@ -85,6 +88,7 @@ Description: Recommended packages for Audio Support in non-Qubes
 
 Package: kicksecure-dependencies-system
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: dracut | linux-initramfs-tool | initramfs-tools,
  ${misc:Depends}
 Description: System for hardened systems
@@ -97,6 +101,7 @@ Description: System for hardened systems
 
 Package: kicksecure-dependencies-cli
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: init,
  locales,
  dist-base-files, apparmor-profile-dist, desktop-config-dist,
@@ -118,6 +123,7 @@ Description: Dependencies for hardened systems CLI
 
 Package: kicksecure-recommended-cli
 Architecture: all
+Pre-Depends: legacy-dist
 Depends:
  haveged, jitterentropy-rngd,
  man-db,
@@ -142,6 +148,7 @@ Description: Recommended packages for Kicksecure
 
 Package: kicksecure-default-applications-cli
 Architecture: all
+Pre-Depends: legacy-dist
 Depends:
  extrepo, equivs, flatpak,
  pwgen, diceware, makepasswd,
@@ -162,6 +169,7 @@ Description: Default applications packages for Kicksecure
 ## VMSVGA graphic device.
 Package: kicksecure-desktop-environment-essential-gui
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: xserver-xorg,
  xserver-xorg-video-fbdev,
  xserver-xorg-video-vesa,
@@ -180,6 +188,7 @@ Description: Desktop Depends GUI
 
 Package: kicksecure-desktop-environment-essential-xfce
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: kicksecure-desktop-environment-essential-gui,
  xfce4, gdm3,
  gnome-brave-icon-theme,
@@ -192,6 +201,7 @@ Description: Recommended applications for hardened Xfce Desktop Environment
 
 Package: kicksecure-desktop-applications-xfce
 Architecture: all
+Pre-Depends: legacy-dist
 ## When depeding on virtual package 'polkit-1-auth-agent', i.e.
 ## 'policykit-1-gnome | polkit-1-auth-agent' then 'policykit-1-gnome' will not
 ## be installed. At time of writing 'polkit-1-auth-agent' was the only package
@@ -209,6 +219,7 @@ Description: Recommended applications for hardened Xfce desktop GUI
 
 Package: kicksecure-desktop-applications-recommended
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: ristretto, tumbler,
  keepassxc,
  vlc, hunspell-en-us, gpa,
@@ -228,6 +239,7 @@ Description: Kicksecure Recommended Desktop Applications
 
 Package: apparmor-profiles-kicksecure
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: apparmor-profiles,
  apparmor-profiles-extra,
  apparmor-profile-thunderbird,
@@ -261,6 +273,7 @@ Description: Dependencies for Kicksecure that changes network related files
 
 Package: kicksecure-cli
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: kicksecure-dependencies-cli,
  kicksecure-recommended-cli,
  kicksecure-default-applications-cli,
@@ -275,6 +288,7 @@ Description: Kicksecure command line interface CLI
 
 Package: kicksecure-cli-host
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: kicksecure-dependencies-system,
  kicksecure-cli,
  ${misc:Depends}
@@ -285,6 +299,7 @@ Description: Kicksecure Host command line interface CLI
 
 Package: kicksecure-cli-vm
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: kicksecure-dependencies-system,
  kicksecure-cli,
  non-qubes-vm-enhancements-cli,
@@ -300,6 +315,7 @@ Description: Kicksecure command line interface CLI VMs
 
 Package: kicksecure-xfce
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: kicksecure-cli,
  kicksecure-desktop-environment-essential-xfce,
  kicksecure-desktop-applications-xfce,
@@ -311,6 +327,7 @@ Description: Kicksecure Xfce GUI
 
 Package: kicksecure-shared-host-xfce
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: non-qubes-audio,
  xfce4-power-manager, xfce4-xkb-plugin, xfce4-screenshooter,
  gnome-system-monitor, gparted,
@@ -326,6 +343,7 @@ Description: Kicksecure Shared Host Xfce GUI
 
 Package: kicksecure-xfce-host
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: kicksecure-cli-host,
  kicksecure-xfce,
  kicksecure-network-conf, kicksecure-network-conf-gui,
@@ -339,6 +357,7 @@ Description: Kicksecure Host Xfce GUI
 
 Package: kicksecure-xfce-vm
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: kicksecure-cli-vm,
  kicksecure-xfce,
  kicksecure-network-conf-gui,
@@ -357,6 +376,7 @@ Description: Kicksecure Xfce GUI for VMs
 
 Package: kicksecure-qubes-cli
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: kicksecure-cli,
  ${misc:Depends}
 Description: Default packages for Kicksecure-Qubes CLI
@@ -370,6 +390,7 @@ Description: Default packages for Kicksecure-Qubes CLI
 
 Package: kicksecure-qubes-gui
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: kicksecure-qubes-cli,
  kicksecure-desktop-applications-recommended,
  ${misc:Depends}
@@ -381,6 +402,7 @@ Description: Default packages for Kicksecure-Qubes GUI
 
 Package: orca-screen-reader-support
 Architecture: all
+Pre-Depends: legacy-dist
 Depends: non-qubes-audio,
  orca, gstreamer1.0-plugins-good, libatk-adaptor, libgail-common,
  xbrlapi, python3-gst-1.0, speech-dispatcher-espeak-ng, sound-icons,
