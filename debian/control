@@ -224,7 +224,6 @@ Depends: ristretto, tumbler,
  keepassxc,
  vlc, hunspell-en-us, gpa,
  electrum | dummy-dependency-electrum,
- monero-gui | dummy-dependency-monero-gui,
  firefox-esr | dummy-dependency,
  sdwdate-gui,
  repository-dist-wizard,
@@ -511,20 +510,6 @@ Description: dummy package to satisfy architecture specific dependency hardened-
  A metapackage, which satisfies the dependency on:
  .
  hardened-malloc
- .
- This package cannot provide a real implementation of that package. It is only
- a dummy to satisfy the dependency.
- .
- Safe to remove if its removal does not remove another metapackage, which is
- not safe to remove.
-
-Package: dummy-dependency-monero-gui
-Architecture: all
-Depends: ${misc:Depends}
-Provides: monero-gui, dummy-dependency-hardened-monero-gui
-Replaces: dummy-dependency-hardened-monero-gui
-Description: dummy package to satisfy architecture specific dependency monero-gui
- A metapackage, which satisfies the dependency on monero-gui.
  .
  This package cannot provide a real implementation of that package. It is only
  a dummy to satisfy the dependency.
