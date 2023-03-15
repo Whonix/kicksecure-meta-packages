@@ -1,3 +1,15 @@
+commit 1016e0bb3b9616ec6414fcb2c1171044d0c195ba
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 15 11:56:14 2023 -0400
+
+    remove monero-gui
+
+commit 0799dc56889cff146f1bbc52ac71d962d9aa3ceb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 30 08:22:16 2023 -0500
+
+    bumped changelog version
+
 commit 011d11b4664bc5a3e9aab86e1623f9f7cef71c17
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 30 07:44:39 2023 -0500
