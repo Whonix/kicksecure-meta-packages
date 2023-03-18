@@ -1,3 +1,19 @@
+commit 36dc33aaaf635fafaead2beecb3a883b2cae6404
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 15 19:37:43 2023 -0400
+
+    add torsocks to kicksecure-recommended-cli
+    
+    useful to download from onions using curl
+    
+    (such as Linux installers)
+
+commit 6a878dc0465906885cd8b649358a2f8aebd77582
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Mar 15 12:00:59 2023 -0400
+
+    bumped changelog version
+
 commit 1016e0bb3b9616ec6414fcb2c1171044d0c195ba
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Mar 15 11:56:14 2023 -0400
