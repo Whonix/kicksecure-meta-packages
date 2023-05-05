@@ -1,3 +1,22 @@
+commit 295ebf289e3d19fca367c802c6d8f81b0d353b16
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri May 5 17:08:30 2023 +0000
+
+    add `fuse` to `kicksecure-default-applications-cli`
+    
+    because `fuse` is required when
+    
+    * running `flatpak` as user,
+    * by appimages.
+    
+    https://forums.whonix.org/t/installation-of-monero-gui-from-flatpak-fails-without-sudo-su/16616/
+
+commit 8317fa05bd8bf8cae517eeca2b2ad75eb2dd6361
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 18 07:24:13 2023 -0400
+
+    bumped changelog version
+
 commit 36dc33aaaf635fafaead2beecb3a883b2cae6404
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Mar 15 19:37:43 2023 -0400
