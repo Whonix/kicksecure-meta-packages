@@ -150,6 +150,7 @@ Package: kicksecure-default-applications-cli
 Architecture: all
 Pre-Depends: legacy-dist
 Depends:
+ fuse,
  extrepo, equivs, flatpak,
  pwgen, diceware, makepasswd,
  codecrypt, magic-wormhole,
