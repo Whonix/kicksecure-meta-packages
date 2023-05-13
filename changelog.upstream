@@ -1,3 +1,19 @@
+commit 23599d314786ef9d6b5a265b1882bb583c0e5a45
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat May 13 08:44:09 2023 +0000
+
+    install xscreensaver by default
+    
+    by adding `xscreensaver` to `kicksecure-shared-host-xfce`
+    
+    https://forums.kicksecure.com/t/kicksecure-no-screen-lock-installed/221
+
+commit d29ed4545a5a344b69b8005f7703a7df5a84bd21
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri May 5 17:10:11 2023 +0000
+
+    bumped changelog version
+
 commit 295ebf289e3d19fca367c802c6d8f81b0d353b16
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri May 5 17:08:30 2023 +0000
