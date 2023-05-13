@@ -332,6 +332,7 @@ Depends: non-qubes-audio,
  xfce4-power-manager, xfce4-xkb-plugin, xfce4-screenshooter,
  gnome-system-monitor, gparted,
  sdwdate-gui,
+ xscreensaver,
  grub-live | grub-live-boot | boot-live,
  ${misc:Depends}
 Description: Kicksecure Shared Host Xfce GUI
