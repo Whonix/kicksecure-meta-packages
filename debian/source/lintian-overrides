@@ -4,4 +4,4 @@ debian-watch-does-not-check-gpg-signature
 ## Just dummy packages without any contents.
 ## This package itself is not nonfree.
 ## This package itself is Free, Open, Freedom, Libre Software.
-kicksecure-meta-packages source: section-area-mismatch Package dummy-nonfree
+source: archive-liberty-mismatch

@@ -3,4 +3,4 @@
 ## Copyright (C) 2019 - 2023 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 ## See the file COPYING for copying conditions.
 
-genmkfile_lintian_post_opts+=" --suppress-tags section-area-mismatch"
+#genmkfile_lintian_post_opts+=" --suppress-tags archive-liberty-mismatch"
