@@ -208,7 +208,7 @@ Pre-Depends: legacy-dist
 ## be installed. At time of writing 'polkit-1-auth-agent' was the only package
 ## that 'Provides:' 'polkit-1-auth-agent' anyhow.
 Depends: libexo-2-0, xfce4-terminal, mousepad,
- lxqt-sudo, policykit-1, policykit-1-gnome,
+ lxqt-sudo, polkitd, pkexec, policykit-1-gnome,
  p7zip-full, zip, unzip, xz-utils, unar, xarchiver,
  thunar, thunar-archive-plugin, thunar-volman, gvfs,
  ${misc:Depends}
