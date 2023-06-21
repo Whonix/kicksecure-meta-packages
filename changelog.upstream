@@ -1,3 +1,21 @@
+commit 1e28a3cb7a12dc11bb1c8ed8ca6784d6e50c9e53
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 21 09:50:38 2023 +0000
+
+    remove dependency on `apt-transport-https` because now integrated in `apt`
+
+commit 88b2c8b9f70eac4fe50ebe268983821368ef5cea
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 21 09:48:45 2023 +0000
+
+    `policykit-1` -> `polkitd`, `pkexec`
+
+commit 2c7d47bc6737c0a76140ec39387422d5bfe009e2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 21 09:30:28 2023 +0000
+
+    bumped changelog version
+
 commit c6bd70c5be32368907bd16a3629b2832871b7aaa
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jun 21 09:11:28 2023 +0000
