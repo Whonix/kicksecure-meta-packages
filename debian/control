@@ -191,7 +191,7 @@ Package: kicksecure-desktop-environment-essential-xfce
 Architecture: all
 Pre-Depends: legacy-dist
 Depends: kicksecure-desktop-environment-essential-gui,
- xfce4, gdm3,
+ xfce4, lightdm,
  gnome-brave-icon-theme,
  ${misc:Depends}
 Description: Recommended applications for hardened Xfce Desktop Environment
