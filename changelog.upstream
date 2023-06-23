@@ -1,3 +1,17 @@
+commit 9ce618d595e965ce1e2f7a45be630733fab22015
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jun 23 10:05:35 2023 +0000
+
+    lightdm
+    
+    https://forums.whonix.org/t/display-manager-lightdm-gdm3-sddm-or-no-display-manager-startx/12457
+
+commit 736cdb86e707a62452176cc2dd0560f945d6436f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 21 10:03:45 2023 +0000
+
+    bumped changelog version
+
 commit 1e28a3cb7a12dc11bb1c8ed8ca6784d6e50c9e53
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jun 21 09:50:38 2023 +0000
