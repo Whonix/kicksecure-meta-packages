@@ -1,3 +1,17 @@
+commit 306f575c3560b9be14ef26a382eca262a3941e58
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jul 5 10:09:46 2023 -0400
+
+    install auditd by default
+    
+    useful for aa-logprof
+
+commit 38841b3add2c2a780992fd8ffa4bc9076996c51d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jun 23 10:12:10 2023 +0000
+
+    bumped changelog version
+
 commit 9ce618d595e965ce1e2f7a45be630733fab22015
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Jun 23 10:05:35 2023 +0000
