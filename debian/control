@@ -130,7 +130,7 @@ Depends:
  bzip2,
  net-tools, dnsutils, iputils-ping, iotop,
  file, lsof, pciutils, strace, sysfsutils, procps, e2fsprogs,
- less, most, apparmor-utils,
+ less, most, apparmor-utils, auditd,
  bash-completion, nano,
  udisks2, libblockdev-crypto2,
  sensible-utils,
