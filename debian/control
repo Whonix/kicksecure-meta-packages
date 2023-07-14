@@ -327,14 +327,16 @@ Description: Kicksecure Xfce GUI
  .
  Do not remove.
 
-Package: kicksecure-shared-host-cli
+Package: kicksecure-cli-host-packages-recommended
 Architecture: all
 Pre-Depends: legacy-dist
 Depends: tirdad,
  ${misc:Depends}
-Description: Kicksecure Shared Host CLI
+Description: Recommended Kicksecure Host CLI Packages
  A metapackage, which installs packages, which are recommended for
  Kicksecure CLI Host.
+ .
+ Not useful to have inside Qubes.
  .
  Safe to remove, if you know what you are doing.
 
