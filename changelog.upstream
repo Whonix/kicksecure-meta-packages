@@ -1,3 +1,21 @@
+commit 630466b2568791bb83581d5c69412212920fae93
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jul 14 07:27:12 2023 -0400
+
+    fix, install `tirdad` by default on Kicksecure Hosts
+
+commit c1282185acac784c82727bb0953fafdb2c473cd9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jul 14 07:19:44 2023 -0400
+
+    refactoring
+
+commit 2c791a411dcc5ec6f0a4171cdbd18a3b9914df87
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jul 5 10:17:33 2023 -0400
+
+    bumped changelog version
+
 commit 306f575c3560b9be14ef26a382eca262a3941e58
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jul 5 10:09:46 2023 -0400
