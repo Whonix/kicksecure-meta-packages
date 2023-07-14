@@ -49,7 +49,8 @@ Depends: vm-config-dist,
  keyboard-configuration, kbd, acpi-support, console-common, console-setup,
  udev, dmsetup,
  cryptsetup, zulucrypt-cli, libzulucrypt-plugins,
- swap-file-creator, tirdad,
+ swap-file-creator,
+ tirdad,
  grub-live | grub-live-boot | boot-live,
  ${misc:Depends}
 Description: Recommended packages for terminal based VMs CLI
