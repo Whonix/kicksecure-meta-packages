@@ -291,6 +291,7 @@ Package: kicksecure-cli-host
 Architecture: all
 Pre-Depends: legacy-dist
 Depends: kicksecure-dependencies-system,
+ kicksecure-cli-host-packages-recommended,
  kicksecure-cli,
  ${misc:Depends}
 Description: Kicksecure Host command line interface CLI
@@ -325,6 +326,17 @@ Description: Kicksecure Xfce GUI
  A metapackage, which installs packages, for Kicksecure Xfce.
  .
  Do not remove.
+
+Package: kicksecure-shared-host-cli
+Architecture: all
+Pre-Depends: legacy-dist
+Depends: tirdad,
+ ${misc:Depends}
+Description: Kicksecure Shared Host CLI
+ A metapackage, which installs packages, which are recommended for
+ Kicksecure CLI Host.
+ .
+ Safe to remove, if you know what you are doing.
 
 Package: kicksecure-shared-host-xfce
 Architecture: all
