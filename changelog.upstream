@@ -1,3 +1,19 @@
+commit 69281ee7adbace3a84b59cf35b00bdbbaa11f82e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Jul 20 07:34:09 2023 -0400
+
+    drop dependency on busybox since no longer needed
+    
+    since Kicksecure was ported to dracut
+    
+    https://forums.whonix.org/t/note-installing-waydroid-will-remove-busybox-which-is-a-dep-to-kicksecure-dependencies-cli/16910
+
+commit 0e914831fc28835fb6452cc1d3db9b76163ef34e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jul 17 11:45:29 2023 -0400
+
+    bumped changelog version
+
 commit f4e894a14a9909b914339520054feed3a5176f0e
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jul 17 11:18:21 2023 -0400
