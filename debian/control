@@ -77,7 +77,9 @@ Description: Recommended packages for graphical VMs GUI
 Package: non-qubes-audio
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: wireplumber, pipewire-pulse, pipewire-audio, pavucontrol, libasound2, alsa-utils, ${misc:Depends}
+Depends: wireplumber, pipewire-pulse, pipewire-audio,
+ pavucontrol, libasound2, alsa-utils,
+ ${misc:Depends}
 Description: Recommended packages for Audio Support in non-Qubes
  A metapackage, which includes recommended packages which are useful to provide
  audio support.
