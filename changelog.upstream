@@ -1,3 +1,15 @@
+commit ac6603e4dc8a08835e0bf54b9a315b8d4ab44fb8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 21 10:38:11 2023 -0400
+
+    non-qubes-audio: Provides: pulseaudio
+
+commit 96520e1397495a6761ce6fa271dda099015bf8fb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 21 10:34:21 2023 -0400
+
+    bumped changelog version
+
 commit 657a406e55da1b442da5b5877d7cb5dbd99747da
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Oct 21 10:33:55 2023 -0400
