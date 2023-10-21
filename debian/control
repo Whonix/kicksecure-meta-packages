@@ -80,6 +80,7 @@ Pre-Depends: legacy-dist
 Depends: libasound2, alsa-utils, wireplumber, pipewire-pulse, pipewire-audio, pavucontrol, ${misc:Depends}
 Conflicts: pulseaudio
 Replaces: pulseaudio
+Provides: pulseaudio
 Description: Recommended packages for Audio Support in non-Qubes
  A metapackage, which includes recommended packages which are useful to provide
  audio support.
