@@ -1,3 +1,39 @@
+commit b66485f3178c87a16bb2508e0f813a6f64de90ff
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 21 10:52:57 2023 -0400
+
+    pipewire-audio | pulseaudio
+    
+    to avoid held back packages
+
+commit 15bab4110ef413e1407fe65ea45ed8e0cdb30d42
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 21 10:45:41 2023 -0400
+
+    refactoring
+
+commit 2f4292f0d7aefa7385fcbac2b4b7dee6e33880f7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 21 10:45:07 2023 -0400
+
+    refactoring
+
+commit 7631919a4b06d42f0946135a9f29da51e925ad51
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 21 10:44:34 2023 -0400
+
+    remove
+    
+    Conflicts: pulseaudio
+    Replaces: pulseaudio
+    Provides: pulseaudio
+
+commit be722ab7c8fab9f99592e56dbefeab71018177d8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 21 10:38:31 2023 -0400
+
+    bumped changelog version
+
 commit ac6603e4dc8a08835e0bf54b9a315b8d4ab44fb8
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Oct 21 10:38:11 2023 -0400
