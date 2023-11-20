@@ -1,3 +1,25 @@
+commit 7af6c227666a90e389964082a1aab9a2e6a4575f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Nov 20 04:47:19 2023 -0500
+
+    wrap-and-sort
+
+commit 4f8fc42a52077ecd2f3528f5bcfaea013e126383
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Nov 20 04:39:12 2023 -0500
+
+    add libpam-tmpdir to kicksecure-recommended-cli
+    
+    https://github.com/Kicksecure/security-misc/pull/147
+    
+    https://github.com/Kicksecure/security-misc/issues/169
+
+commit bdcc84324441a0702ebc1134cebcafd3865de900
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Nov 11 20:17:02 2023 +0000
+
+    bumped changelog version
+
 commit e8e32d443f206ef8e11fc6acefdd2011c22cd034
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 11 13:41:27 2023 -0500
