@@ -1,3 +1,15 @@
+commit 9c44121054d244166b6bb7e44b63c9a5dd47b07b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 16 13:23:36 2023 -0500
+
+    add boot-info-script to kicksecure-recommended-cli
+
+commit 010d3dd9a9d7ea72debdcdb2e0ae023d315067f1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Dec 11 13:38:31 2023 +0000
+
+    bumped changelog version
+
 commit ea063e4a5ae7014dfdc6e4f09425f88e04fae2d9
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Dec 11 08:37:53 2023 -0500
