@@ -176,6 +176,7 @@ Depends: apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicks
          torsocks,
          udisks2,
          usability-misc,
+         boot-info-script,
          ${misc:Depends}
 Description: Recommended packages for Kicksecure
  A metapackage, which includes recommended packages to ensure, Kicksecure
