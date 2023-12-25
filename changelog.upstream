@@ -1,3 +1,17 @@
+commit c6ff51ed70894b34d90ea8573f2be1cc37b22d5a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Dec 25 14:17:29 2023 -0500
+
+    Revert "add grub-theme-breeze to kicksecure-cli-host-packages-recommended"
+    
+    This reverts commit ea063e4a5ae7014dfdc6e4f09425f88e04fae2d9.
+
+commit d0927902d2432f33f912bc9c98e89e63a7e34568
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 16 18:24:13 2023 +0000
+
+    bumped changelog version
+
 commit 9c44121054d244166b6bb7e44b63c9a5dd47b07b
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Dec 16 13:23:36 2023 -0500
