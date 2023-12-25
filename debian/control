@@ -394,7 +394,7 @@ Description: Kicksecure Xfce GUI
 Package: kicksecure-cli-host-packages-recommended
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: tirdad, grub-theme-breeze, ${misc:Depends}
+Depends: tirdad, ${misc:Depends}
 Description: Recommended Kicksecure Host CLI Packages
  A metapackage, which installs packages, which are recommended for
  Kicksecure CLI Host.
