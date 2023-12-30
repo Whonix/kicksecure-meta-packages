@@ -1,3 +1,26 @@
+commit 9bcbb363c2396ab8f792db953aedaa11453a3d92
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Dec 29 21:07:24 2023 -0500
+
+    install by default on host operating system:
+    gnome-disk-utility,
+    gsmartcontrol,
+    smartmontools,
+    smart-notifier,
+    nvme-cli,
+    pv,
+    lshw,
+    hwinfo,
+    ddrescue,
+    lm-sensors,
+    psensor
+
+commit bf25d236055ee92d7620725a45a60f61ebdc5c85
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Dec 25 19:18:03 2023 +0000
+
+    bumped changelog version
+
 commit c6ff51ed70894b34d90ea8573f2be1cc37b22d5a
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Dec 25 14:17:29 2023 -0500
