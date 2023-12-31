@@ -1,3 +1,21 @@
+commit bb2bbfe230061de359ebb518ce586e2a7b598fb3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Dec 31 09:37:12 2023 -0500
+
+    typo
+
+commit 4bc5a31cbd981b511c51b289a3d0028d6bc61afa
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Dec 31 09:36:24 2023 -0500
+
+    add kicksecure-desktop-applications-xfce to kicksecure-qubes-gui
+
+commit 1f430c224a96af7fd13166d8dc26e89988c9e25e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 30 02:08:00 2023 +0000
+
+    bumped changelog version
+
 commit 9bcbb363c2396ab8f792db953aedaa11453a3d92
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Dec 29 21:07:24 2023 -0500
