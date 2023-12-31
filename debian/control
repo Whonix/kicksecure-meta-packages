@@ -484,7 +484,8 @@ Description: Default packages for Kicksecure-Qubes CLI
 Package: kicksecure-qubes-gui
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: kicksecure-desktop-applications-recommended,
+Depends: kicksecure-desktop-applications-xfce,
+         kicksecure-desktop-applications-recommended,
          kicksecure-qubes-cli,
          ${misc:Depends}
 Description: Default packages for Kicksecure-Qubes GUI
