@@ -1,3 +1,21 @@
+commit ca0a164deef10648546042d1f448ff862fe238da
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 1 10:30:09 2024 -0500
+
+    add ddrescueview to kicksecure-shared-host-xfce
+
+commit c177648974ab0f1661f3dc5163eda1f02eb68d35
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 1 10:32:12 2024 -0500
+
+    fix: ddrescue -> gddrescue
+
+commit 48f443bb612c3523eaec699795cde6677f1f9cd7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Dec 31 14:46:22 2023 +0000
+
+    bumped changelog version
+
 commit bb2bbfe230061de359ebb518ce586e2a7b598fb3
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Dec 31 09:37:12 2023 -0500
