@@ -1,3 +1,15 @@
+commit f6b2e2acb125b4f4ef470f58394acb6b0c1f0a71
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 22 07:22:21 2024 -0500
+
+    add usrmerge to kicksecure-dependencies-cli
+
+commit c1db3d8043e8072b5edefcc0ac3921d5103c709f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 1 15:30:41 2024 +0000
+
+    bumped changelog version
+
 commit ca0a164deef10648546042d1f448ff862fe238da
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 1 10:30:09 2024 -0500
