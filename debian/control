@@ -132,6 +132,7 @@ Depends: apparmor-profile-dist,
          setup-dist,
          sudo,
          timesanitycheck,
+         usrmerge,
          ${misc:Depends}
 Description: Dependencies for hardened systems CLI
  A metapackage, which installs command line interface (CLI) packages which
