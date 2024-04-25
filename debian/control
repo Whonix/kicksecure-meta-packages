@@ -428,6 +428,8 @@ Depends: gnome-system-monitor,
          xfce4-screenshooter,
          xfce4-xkb-plugin,
          xscreensaver,
+         msgcollector-gui,
+         icon-pack-dist,
          ${misc:Depends}
 Description: Kicksecure Shared Host Xfce GUI
  A metapackage, which installs packages, which are recommended for
