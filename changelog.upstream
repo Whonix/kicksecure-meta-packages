@@ -1,3 +1,15 @@
+commit 5ea1388dac8ba39275075cdcbe22e981205a2289
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Apr 25 08:35:55 2024 -0400
+
+    add msgcollector-gui, icon-pack-dist to kicksecure-shared-host-xfce
+
+commit ac9468b121ee4cf5b57155bac438ca25c07dd0fc
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 22 12:40:10 2024 +0000
+
+    bumped changelog version
+
 commit f6b2e2acb125b4f4ef470f58394acb6b0c1f0a71
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 22 07:22:21 2024 -0500
