@@ -1,3 +1,17 @@
+commit b003e4e78f3ff735ae83f57e86a6925b032ba726
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon May 20 10:11:39 2024 -0400
+
+    Revert "install auditd by default"
+    
+    This reverts commit 306f575c3560b9be14ef26a382eca262a3941e58.
+
+commit 6a26d0f5b7d55b3bf8237a1e334f5502c43ad516
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Apr 25 13:19:02 2024 +0000
+
+    bumped changelog version
+
 commit 5ea1388dac8ba39275075cdcbe22e981205a2289
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Apr 25 08:35:55 2024 -0400
