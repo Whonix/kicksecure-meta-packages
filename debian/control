@@ -145,7 +145,6 @@ Architecture: all
 Pre-Depends: legacy-dist
 Depends: apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicksecure,
          apparmor-utils,
-         auditd,
          bash-completion,
          bzip2,
          curl,
