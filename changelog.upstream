@@ -1,3 +1,16 @@
+commit 2b3ae363e9396b5ea79d7c128ee1f9a5c251595a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jul 5 16:35:47 2024 -0400
+
+    * add to `kicksecure-recommended-cli`: `pcmciautils`, `usbutils`, `eject`
+    * add to `kicksecure-shared-host-xfce`: `laptop-detect`, `discover`
+
+commit 0488838af823c2483740f97099e3073b44707203
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon May 20 14:34:34 2024 +0000
+
+    bumped changelog version
+
 commit b003e4e78f3ff735ae83f57e86a6925b032ba726
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon May 20 10:11:39 2024 -0400
