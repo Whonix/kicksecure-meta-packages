@@ -1,3 +1,21 @@
+commit 7e1f48731315da5cb6371ac24c154f9f73415a3a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 13 10:19:45 2024 -0400
+
+    add `iproute2` (contains `ip`) and `traceroute` to `kicksecure-recommended-cli`
+
+commit e5aafd3be6c933be0b0a9b098b664d42abfdc25d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 13 07:34:53 2024 -0400
+
+    add `distro-info-data` to `kicksecure-recommended-cli`
+
+commit 09bc2e6edc8febfedc2b5062e8a2cec9cca9990b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jul 5 20:50:57 2024 +0000
+
+    bumped changelog version
+
 commit 2b3ae363e9396b5ea79d7c128ee1f9a5c251595a
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Jul 5 16:35:47 2024 -0400
