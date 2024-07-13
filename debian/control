@@ -165,6 +165,8 @@ Depends: apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicks
          most,
          nano,
          net-tools,
+         iproute2,
+         traceroute,
          open-link-confirmation,
          openvpn,
          pciutils,
