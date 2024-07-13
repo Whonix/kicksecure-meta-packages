@@ -148,6 +148,7 @@ Depends: apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicks
          bash-completion,
          bzip2,
          curl,
+         distro-info-data,
          dnsutils,
          e2fsprogs,
          file,
