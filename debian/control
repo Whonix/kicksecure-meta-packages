@@ -193,7 +193,8 @@ Description: Recommended packages for Kicksecure
 Package: kicksecure-default-applications-cli
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: codecrypt,
+Depends: catfish,
+         codecrypt,
          diceware,
          dirmngr,
          equivs,
