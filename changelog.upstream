@@ -1,3 +1,17 @@
+commit 633d17fb9acc4415204f7db4051f4829519fa8cd
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jul 24 08:24:44 2024 -0400
+
+    add `catfish` to `kicksecure-default-applications-cli`
+    
+    https://forums.whonix.org/t/install-catfish-file-searching-tool-xfce-de-by-default/19837
+
+commit c8acf2e9c206b56b1db5e39e5f384623b252a71c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 13 14:58:26 2024 +0000
+
+    bumped changelog version
+
 commit 7e1f48731315da5cb6371ac24c154f9f73415a3a
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Jul 13 10:19:45 2024 -0400
