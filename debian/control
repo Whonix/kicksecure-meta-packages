@@ -15,7 +15,8 @@ Rules-Requires-Root: no
 Package: firmware-nonfreedom
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: amd64-microcode,
+Depends: atmel-firmware,
+         amd64-microcode,
          firmware-amd-graphics,
          firmware-atheros,
          firmware-b43-installer,
@@ -32,6 +33,9 @@ Depends: amd64-microcode,
          firmware-ti-connectivity,
          firmware-zd1211,
          intel-microcode,
+         firmware-ath9k-htc,
+         firmware-intelwimax,
+         firmware-ralink,
          ${misc:Depends}
 Section: non-free/metapackages
 Description: Recommended packages for hosts with nonfreedom hardware design
