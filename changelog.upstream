@@ -1,3 +1,25 @@
+commit 4756a1b238651944baf12767fa1667324916e792
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jul 26 16:14:36 2024 -0400
+
+    wrap-and-sort
+
+commit 9f6322840f465b6875d039a4f7dd5b84b8fb846d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jul 26 16:11:16 2024 -0400
+
+    add to `firmware-nonfreedom`:
+    `atmel-firmware`
+    `firmware-ath9k-htc`
+    `firmware-intelwimax`
+    `firmware-ralink`
+
+commit ffea21c4169bdf7c61cfca129681e2f1fee033a4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jul 26 09:38:22 2024 +0000
+
+    bumped changelog version
+
 commit 633d17fb9acc4415204f7db4051f4829519fa8cd
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jul 24 08:24:44 2024 -0400
