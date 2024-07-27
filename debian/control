@@ -62,7 +62,6 @@ Depends: acpi-support,
          swap-file-creator,
          tirdad,
          udev,
-         vm-config-dist,
          zulucrypt-cli,
          ${misc:Depends}
 Description: Recommended packages for terminal based VMs CLI
@@ -383,6 +382,7 @@ Depends: kicksecure-cli,
          kicksecure-dependencies-system,
          kicksecure-network-conf,
          non-qubes-enhancements-cli,
+         vm-config-dist,
          ${misc:Depends}
 Description: Kicksecure command line interface CLI VMs
  A metapackage, which installs packages, for Kicksecure CLI Virtual Machines.
