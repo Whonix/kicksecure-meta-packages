@@ -73,9 +73,10 @@ Description: Recommended packages for terminal based VMs CLI
  .
  Safe to remove, if you know what you are doing.
 
-Package: non-qubes-vm-enhancements-gui
+Package: non-qubes-enhancements-gui
 Architecture: all
 Pre-Depends: legacy-dist
+Replaces: non-qubes-vm-enhancements-gui
 Depends: non-qubes-enhancements-cli, rads, zulucrypt-gui, ${misc:Depends}
 Description: Recommended packages for graphical VMs GUI
  A metapackage, which includes recommended packages which are useful within
@@ -474,7 +475,7 @@ Depends: kicksecure-cli-vm,
          kicksecure-network-conf-gui,
          kicksecure-xfce,
          non-qubes-audio,
-         non-qubes-vm-enhancements-gui,
+         non-qubes-enhancements-gui,
          ${misc:Depends}
 Description: Kicksecure Xfce GUI for VMs
  A metapackage, which installs packages, for Kicksecure Xfce in Virtual
