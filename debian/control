@@ -158,7 +158,6 @@ Depends: apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicks
          e2fsprogs,
          eject,
          file,
-         hardened-malloc | dummy-dependency,
          haveged,
          iotop,
          iproute2,
