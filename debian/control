@@ -627,8 +627,6 @@ Package: dummy-dependency-hardened-malloc
 Architecture: all
 Depends: ${misc:Depends}
 Provides: hardened-malloc
-## TODO:
-## Provides: hardened-malloc-kicksecure-enable, hardened-malloc-light-enable
 Description: dummy package to satisfy architecture specific dependency hardened-malloc
  A metapackage, which satisfies the dependency on:
  .
