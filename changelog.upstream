@@ -1,3 +1,36 @@
+commit 45616d7ed02adc9e0244ad7443b66a2c28c20219
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 27 11:01:29 2024 -0400
+
+    * add non-qubes-enhancements-cli to kicksecure-cli-host
+    * add non-qubes-enhancements-gui to kicksecure-shared-host-xfce
+
+commit c8c841e699ba4d1a9c30e2a850868db2d03ba9b4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 27 10:52:24 2024 -0400
+
+    remove vm-config-dist from non-qubes-enhancements-cli and add to kicksecure-cli-vm
+
+commit 2aa0e54f2d1847c0cee6cde7305996e2f718af25
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 27 10:49:52 2024 -0400
+
+    rename non-qubes-enhancements-gui -> non-qubes-enhancements-gui
+
+commit 0c4419dc47c734f0a25944d05b4fc221950a1fea
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 27 10:47:57 2024 -0400
+
+    rename non-qubes-vm-enhancements-cli to non-qubes-enhancements-cli
+    
+    to make it re-usable on Kicksecure Host ISO
+
+commit 1e6435187893d9c5c0e9164aa37fee9ba6242755
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jul 26 20:14:52 2024 +0000
+
+    bumped changelog version
+
 commit 4756a1b238651944baf12767fa1667324916e792
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Jul 26 16:14:36 2024 -0400
