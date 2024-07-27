@@ -1,3 +1,17 @@
+commit 521135e30abb464239bc1160630e38b16d2ea7cd
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 27 11:48:13 2024 -0400
+
+    remove dependency on hardened-malloc
+    
+    https://www.kicksecure.com/wiki/Hardened_Malloc#Deprecation_in_Kicksecure
+
+commit 4b22e4483233c7efefad21613be1130779efe846
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 27 15:26:14 2024 +0000
+
+    bumped changelog version
+
 commit 5308f74fea34544ad7aaa224f668b8459316f1fd
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Jul 27 11:25:39 2024 -0400
