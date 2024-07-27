@@ -46,9 +46,10 @@ Description: Recommended packages for hosts with nonfreedom hardware design
  .
  Safe to remove, if you know what you are doing.
 
-Package: non-qubes-vm-enhancements-cli
+Package: non-qubes-enhancements-cli
 Architecture: all
 Pre-Depends: legacy-dist
+Replaces: non-qubes-vm-enhancements-cli
 Depends: acpi-support,
          console-common,
          console-setup,
@@ -75,7 +76,7 @@ Description: Recommended packages for terminal based VMs CLI
 Package: non-qubes-vm-enhancements-gui
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: non-qubes-vm-enhancements-cli, rads, zulucrypt-gui, ${misc:Depends}
+Depends: non-qubes-enhancements-cli, rads, zulucrypt-gui, ${misc:Depends}
 Description: Recommended packages for graphical VMs GUI
  A metapackage, which includes recommended packages which are useful within
  GUI based non-Qubes virtual machines.
@@ -380,7 +381,7 @@ Pre-Depends: legacy-dist
 Depends: kicksecure-cli,
          kicksecure-dependencies-system,
          kicksecure-network-conf,
-         non-qubes-vm-enhancements-cli,
+         non-qubes-enhancements-cli,
          ${misc:Depends}
 Description: Kicksecure command line interface CLI VMs
  A metapackage, which installs packages, for Kicksecure CLI Virtual Machines.
