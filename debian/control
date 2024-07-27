@@ -369,6 +369,7 @@ Pre-Depends: legacy-dist
 Depends: kicksecure-cli,
          kicksecure-cli-host-packages-recommended,
          kicksecure-dependencies-system,
+         non-qubes-enhancements-cli,
          ${misc:Depends}
 Description: Kicksecure Host command line interface CLI
  A metapackage, which installs packages, for Kicksecure CLI Host.
@@ -429,6 +430,7 @@ Depends: ddrescueview,
          gsmartcontrol,
          hwinfo,
          icon-pack-dist,
+         non-qubes-enhancements-gui,
          laptop-detect,
          lm-sensors,
          lshw,
