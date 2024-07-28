@@ -1,3 +1,15 @@
+commit 6e95e417fd3458658acdc1d1f5c8573f7dd56258
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 28 18:13:04 2024 -0400
+
+    fix installation of msgcollector-gui
+
+commit 91996c6961f3a58720a8bcd2099f389a4beba8a1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 27 16:02:58 2024 +0000
+
+    bumped changelog version
+
 commit 914c8cc1b5e189e0d93c8788a73b393516465155
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Jul 27 12:02:43 2024 -0400
