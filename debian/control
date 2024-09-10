@@ -170,6 +170,7 @@ Depends: apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicks
          libpam-tmpdir,
          lsof,
          man-db,
+         mesa-utils,
          most,
          nano,
          net-tools,
@@ -224,6 +225,8 @@ Description: Default applications packages for Kicksecure
 ##
 ## xserver-xorg-video-vmware is required by VirtualBox which uses VMWare's
 ## VMSVGA graphic device.
+##
+## mesa-vulkan-drivers is required for KVM 3D.
 Package: kicksecure-desktop-environment-essential-gui
 Architecture: all
 Pre-Depends: legacy-dist
@@ -231,6 +234,7 @@ Depends: desktop-config-dist,
          desktop-config-dist-dependencies,
          gtk2-engines-pixbuf,
          libgl1-mesa-dri,
+         mesa-vulkan-drivers,
          upower,
          x11-xserver-utils,
          xserver-xorg,
