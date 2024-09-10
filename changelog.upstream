@@ -1,3 +1,16 @@
+commit ada0d5e6ee034d5287b11162bd789604fc52e4d8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 10 08:28:33 2024 -0400
+
+    * add `mesa-vulkan-drivers` to `kicksecure-desktop-environment-essential-gui`
+    * add `mesa-utils` to `kicksecure-recommended-cli`
+
+commit 64703b85621da7936581e5d5fb09a9e12892e23c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 28 22:14:23 2024 +0000
+
+    bumped changelog version
+
 commit 6e95e417fd3458658acdc1d1f5c8573f7dd56258
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Jul 28 18:13:04 2024 -0400
