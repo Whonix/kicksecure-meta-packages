@@ -1,3 +1,34 @@
+commit 663b1a5162c5e950fb8e67375dbcb928dc0654f2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 16 13:59:08 2024 -0400
+
+    add `rtkit` to `non-qubes-audio`
+    
+    to prevent rtkit related errors in pipewire journal log
+
+commit 9bc00125c833b9d12ea1512135ef37a221455a48
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 16 13:31:24 2024 -0400
+
+    add `debian-keyring` to `kicksecure-recommended-cli`
+    
+    useful to verify a Debian ISO
+
+commit ea99152114f382f5196cf6d606ac44f53f906ebf
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 16 13:30:01 2024 -0400
+
+    add `gawk` to `kicksecure-dependencies-cli`
+    
+    missing dependency by dracut-core
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1081005
+
+commit e3820ba405d13a28247ece70c1637244a540aadf
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 10 14:27:23 2024 +0000
+
+    bumped changelog version
+
 commit 91999368c4429ef1a1418220bfa1f3f101de863c
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Sep 10 10:27:07 2024 -0400
