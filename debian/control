@@ -117,6 +117,8 @@ Description: System for hardened systems
  .
  Do not remove.
 
+## gawk: missing dependency by dracut-core
+## https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1081005
 Package: kicksecure-dependencies-cli
 Architecture: all
 Pre-Depends: legacy-dist
@@ -128,6 +130,7 @@ Depends: apparmor-profile-dist,
          desktop-config-dist,
          dialog,
          dist-base-files,
+         gawk,
          init,
          initializer-dist,
          locales,
