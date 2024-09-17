@@ -93,9 +93,9 @@ Depends: alsa-utils,
          libasound2,
          pavucontrol,
          pipewire-audio | pulseaudio,
-         pipewire-pulse,
-         rtkit,
-         wireplumber,
+         pipewire-pulse | pulseaudio,
+         rtkit | pulseaudio,
+         wireplumber | pulseaudio,
          ${misc:Depends}
 Description: Recommended packages for Audio Support in non-Qubes
  A metapackage, which includes recommended packages which are useful to provide
