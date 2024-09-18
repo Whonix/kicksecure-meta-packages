@@ -95,7 +95,7 @@ Depends: alsa-utils,
          pipewire-audio | pulseaudio,
          pipewire-pulse | pulseaudio,
          rtkit | pulseaudio,
-         wireplumber | pulseaudio,
+         wireplumber | pipewire-media-session-pulseaudio | pulseaudio,
          ${misc:Depends}
 Description: Recommended packages for Audio Support in non-Qubes
  A metapackage, which includes recommended packages which are useful to provide
