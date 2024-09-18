@@ -1,3 +1,49 @@
+commit 0312c9acefb97bc80cf127853aa35865b6ba09f7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 18 06:56:32 2024 -0400
+
+    no longer install `alsa-utils` by default
+    
+    https://forums.whonix.org/t/port-from-pulseaudio-to-pipewire-for-audio-support/16879/45
+
+commit 1f544bfdf9c140603e9e1843101348a3052d172b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 18 06:51:04 2024 -0400
+
+    add `accountservice` to `kicksecure-desktop-environment-essential-xfce`
+    
+    fixes
+    
+    > localhost lightdm[911]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+    
+    package `lightdm` `Suggests:` `accountservice`
+
+commit ccf7f1611ab3d90d6364a6f0cf40da50af82887c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 18 06:13:10 2024 -0400
+
+    allow `pipewire-media-session-pulseaudio` as an alternative to `wireplumber`
+
+commit 5470f9b8f784433611f1496d46031a64b7c25f84
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 17 06:50:15 2024 -0400
+
+    fix ability to install pulseaudio
+
+commit 61081126f7a937bd7052de87928b464cf6c4eb0f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 17 06:48:43 2024 -0400
+
+    add `dbus-user-session` to `kicksecure-recommended-cli`
+    
+    as required by PipeWire
+
+commit 89a2974aa52db1cf941e96b1c4bb84f9f78b9dfd
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 16 18:02:47 2024 +0000
+
+    bumped changelog version
+
 commit 663b1a5162c5e950fb8e67375dbcb928dc0654f2
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Sep 16 13:59:08 2024 -0400
