@@ -89,8 +89,7 @@ Description: Recommended packages for graphical systems (GUI)
 Package: non-qubes-audio
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: alsa-utils,
-         libasound2,
+Depends: libasound2,
          pavucontrol,
          pipewire-audio | pulseaudio,
          pipewire-pulse | pulseaudio,
