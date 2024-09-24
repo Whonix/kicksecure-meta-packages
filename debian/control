@@ -257,7 +257,7 @@ Description: Desktop Depends GUI
 Package: kicksecure-desktop-environment-essential-xfce
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: accountservice,
+Depends: accountsservice,
          gnome-brave-icon-theme,
          kicksecure-desktop-environment-essential-gui,
          lightdm,
