@@ -1,3 +1,28 @@
+commit 69f52690c7a9bd9d44d319def9faccf801c8e506
+Merge: b0be9cf 61904fd
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 24 20:31:39 2024 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/master'
+
+commit 61904fdf5ae5e57b62ab9ee7e13025a6c6bcd431
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Tue Sep 24 12:45:55 2024 -0500
+
+    Fix ISO build failure (missing 's' in accountsservice)
+
+commit e461c9582e4997b93c33831ad40297905867ce94
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Tue Sep 24 12:45:34 2024 -0500
+
+    Add xdg-desktop-portal(-gtk)
+
+commit b0be9cfdf4bd8ffc7d3dc0640a962ca9b59a8267
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 18 11:00:06 2024 +0000
+
+    bumped changelog version
+
 commit 0312c9acefb97bc80cf127853aa35865b6ba09f7
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Sep 18 06:56:32 2024 -0400
