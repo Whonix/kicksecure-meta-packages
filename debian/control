@@ -242,6 +242,7 @@ Depends: desktop-config-dist,
          mesa-vulkan-drivers,
          upower,
          x11-xserver-utils,
+         xdg-desktop-portal,
          xserver-xorg,
          xserver-xorg-video-fbdev,
          xserver-xorg-video-vesa,
@@ -256,10 +257,11 @@ Description: Desktop Depends GUI
 Package: kicksecure-desktop-environment-essential-xfce
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: accountservice,
+Depends: accountsservice,
          gnome-brave-icon-theme,
          kicksecure-desktop-environment-essential-gui,
          lightdm,
+         xdg-desktop-portal-gtk,
          xfce4,
          ${misc:Depends}
 Description: Recommended applications for hardened Xfce Desktop Environment
