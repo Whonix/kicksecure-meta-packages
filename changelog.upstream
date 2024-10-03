@@ -1,3 +1,21 @@
+commit 6e6b90d016edf52d7de88be6aa76e3281820acf8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Oct 3 02:34:09 2024 -0400
+
+    add `gnome-keyring` to `kicksecure-desktop-environment-essential-xfce`
+    
+    to fix error message
+    
+    > Error storing passphrase in keyring (The name org.freedesktop.secrets was not provided by any .service files)
+    
+    https://forums.kicksecure.com/t/error-storing-passphrase-in-keyring-the-name-org-freedesktop-secrets-was-not-provided-by-any-service-files/582
+
+commit d7eb861b7abe66c52240f4e9ffe497ef601d723a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 25 01:01:36 2024 +0000
+
+    bumped changelog version
+
 commit 69f52690c7a9bd9d44d319def9faccf801c8e506
 Merge: b0be9cf 61904fd
 Author: Patrick Schleizer <adrelanos@whonix.org>
