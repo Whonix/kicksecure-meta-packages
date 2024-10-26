@@ -156,6 +156,7 @@ Depends: apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicks
          apparmor-utils,
          bash-completion,
          boot-info-script,
+         btrfs-progs,
          bzip2,
          curl,
          debian-keyring,
