@@ -1,3 +1,22 @@
+commit f5c4ee737ae10b07ace3e4dc46ac8cb590fa527f
+Merge: 7bcbe79 c94731f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Oct 26 03:40:15 2024 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/btrfs-support'
+
+commit c94731f8575e1e4d1fb649728d6d454a9e1b132c
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Fri Oct 25 15:33:10 2024 -0500
+
+    Add btrfs-progs to kicksecure-recommended-cli
+
+commit 7bcbe794783901d4beb53b3569cd7e81def6f82a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Oct 3 07:20:39 2024 +0000
+
+    bumped changelog version
+
 commit 6e6b90d016edf52d7de88be6aa76e3281820acf8
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Oct 3 02:34:09 2024 -0400
