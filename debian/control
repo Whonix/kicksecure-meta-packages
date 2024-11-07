@@ -167,6 +167,7 @@ Depends: apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicks
          eject,
          file,
          haveged,
+         hunspell-en-us,
          iotop,
          iproute2,
          iputils-ping,
@@ -182,6 +183,7 @@ Depends: apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicks
          net-tools,
          open-link-confirmation,
          openvpn,
+         p7zip-full,
          pciutils,
          pcmciautils,
          procps,
@@ -193,8 +195,13 @@ Depends: apparmor-profiles-kicksecure | dummy-dependency-apparmor-profiles-kicks
          torsocks,
          traceroute,
          udisks2,
+         unar,
+         unzip,
          usability-misc,
          usbutils,
+         vim,
+         xz-utils,
+         zip,
          ${misc:Depends}
 Description: Recommended packages for Kicksecure
  A metapackage, which includes recommended packages to ensure, Kicksecure
@@ -205,13 +212,11 @@ Description: Recommended packages for Kicksecure
 Package: kicksecure-default-applications-cli
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: catfish,
-         codecrypt,
+Depends: codecrypt,
          diceware,
          dirmngr,
          equivs,
          extrepo,
-         flatpak,
          fuse,
          gpg,
          gpg-agent,
@@ -283,19 +288,14 @@ Depends: gvfs,
          libexo-2-0,
          lxqt-sudo,
          mousepad,
-         p7zip-full,
          pkexec,
          policykit-1-gnome,
          polkitd,
          thunar,
          thunar-archive-plugin,
          thunar-volman,
-         unar,
-         unzip,
          xarchiver,
          xfce4-terminal,
-         xz-utils,
-         zip,
          ${misc:Depends}
 Description: Recommended applications for hardened Xfce desktop GUI
  A metapackage, which installs minimal, yet complete enough
@@ -306,10 +306,11 @@ Description: Recommended applications for hardened Xfce desktop GUI
 Package: kicksecure-desktop-applications-recommended
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: electrum | dummy-dependency-electrum,
+Depends: catfish,
+         electrum | dummy-dependency-electrum,
          firefox-esr | dummy-dependency,
+         flatpak,
          gpa,
-         hunspell-en-us,
          keepassxc,
          kicksecure-welcome-page,
          msgcollector-gui,
