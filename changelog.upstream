@@ -1,3 +1,22 @@
+commit b3cbd6264f0525260380411bf4cab216abf1d73d
+Merge: fdf11ea ad51863
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 7 11:06:30 2024 -0500
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/relocate-packages'
+
+commit ad5186308e111cfaa19f0345f0f6012bd713604f
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Wed Nov 6 18:03:08 2024 -0600
+
+    Adjust location of packages in metapackages for consistency, add Vim for developer convenience
+
+commit fdf11ea7dfea48a4ebebca5666765173b0d13312
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Oct 30 09:40:49 2024 +0000
+
+    bumped changelog version
+
 commit f5c4ee737ae10b07ace3e4dc46ac8cb590fa527f
 Merge: 7bcbe79 c94731f
 Author: Patrick Schleizer <adrelanos@whonix.org>
