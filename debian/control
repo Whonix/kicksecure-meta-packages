@@ -506,13 +506,15 @@ Description: Kicksecure Xfce GUI for VMs
 Package: kicksecure-qubes-cli
 Architecture: all
 Pre-Depends: legacy-dist
-Depends: kicksecure-cli, ${misc:Depends}
+Depends: kicksecure-cli,
+         qubes-core-agent-networking,
+         qubes-input-proxy-sender,
+         qubes-kernel-vm-support,
+         qubes-usb-proxy,
+         ${misc:Depends}
 Description: Default packages for Kicksecure-Qubes CLI
  A metapackage, which installs packages, for Kicksecure on Qubes without
  recommended GUI applications.
- .
- Currently only depends on kicksecure-cli but useful for future maintenance in
- case Qubes specific changes will be required.
  .
  Do not remove.
 
@@ -522,6 +524,17 @@ Pre-Depends: legacy-dist
 Depends: kicksecure-desktop-applications-recommended,
          kicksecure-desktop-applications-xfce,
          kicksecure-qubes-cli,
+         qubes-core-agent-thunar,
+         qubes-gpg-split,
+         qubes-img-converter,
+         qubes-pdf-converter,
+         qubesdb-vm,
+         pipewire-qubes | pulseaudio-qubes,
+         pipewire-pulse | pulseaudio-qubes,
+         wireplumber | pipewire-media-session-pulseaudio | pulseaudio-qubes,
+         rtkit | pulseaudio-qubes,
+         dbus-user-session,
+         xfce4-settings,
          ${misc:Depends}
 Description: Default packages for Kicksecure-Qubes GUI
  A metapackage, which installs packages, for Kicksecure on Qubes including
