@@ -506,6 +506,9 @@ Description: Kicksecure Xfce GUI for VMs
 Package: kicksecure-qubes-cli
 Architecture: all
 Pre-Depends: legacy-dist
+Breaks: qubes-whonix-shared-packages-recommended (<< 1:21.1-1)
+Replaces: qubes-whonix-shared-packages-recommended (<< 1:21.1-1)
+Provides: qubes-whonix-shared-packages-recommended (= 1:21.1-1)
 Depends: kicksecure-cli,
          qubes-core-agent-networking,
          qubes-input-proxy-sender,
@@ -521,13 +524,18 @@ Description: Default packages for Kicksecure-Qubes CLI
 Package: kicksecure-qubes-gui
 Architecture: all
 Pre-Depends: legacy-dist
+Breaks: qubes-whonix-workstation-packages-recommended (<< 1:21.1-1)
+Replaces: qubes-whonix-workstation-packages-recommended (<< 1:21.1-1)
+Provides: qubes-whonix-workstation-packages-recommended (= 1:21.1-1)
 Depends: kicksecure-desktop-applications-recommended,
          kicksecure-desktop-applications-xfce,
          kicksecure-qubes-cli,
          qubes-core-agent-thunar,
+         qubes-core-agent-nautilus,
          qubes-gpg-split,
          qubes-img-converter,
          qubes-pdf-converter,
+         qubes-thunderbird,
          qubesdb-vm,
          pipewire-qubes | pulseaudio-qubes,
          pipewire-pulse | pulseaudio-qubes,
