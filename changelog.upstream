@@ -1,3 +1,22 @@
+commit dc6a7195b46296e5b0aa7d88b48eeb2e18057841
+Merge: 354aa87 f641785
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 20 05:06:32 2025 -0500
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/kicksecure-qubes-merge'
+
+commit f64178586827b93889aaa8706620c835f378fd2d
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Wed Jan 15 22:39:25 2025 -0600
+
+    Make kicksecure-qubes-cli and kicksecure-qubes-gui suitable for use with qubes-whonix
+
+commit 354aa87c2582848e59fbc5340c231d37e6af01c9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jan 15 15:50:26 2025 +0000
+
+    bumped changelog version
+
 commit c87514925bafab6fd9144f6c0fe5f026e2e3541e
 Merge: e9959be 5ae1e33
 Author: Patrick Schleizer <adrelanos@whonix.org>
