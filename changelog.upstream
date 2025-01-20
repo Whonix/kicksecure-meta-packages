@@ -1,3 +1,17 @@
+commit 970bdb3b6c492f5752e2c01f3f7ed8317da87348
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 20 05:23:52 2025 -0500
+
+    Revert "Make kicksecure-qubes-cli and kicksecure-qubes-gui suitable for use with qubes-whonix"
+    
+    This reverts commit f64178586827b93889aaa8706620c835f378fd2d.
+
+commit 3af969f96c62dd1f14da282964ce60643f934a1f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 20 10:09:44 2025 +0000
+
+    bumped changelog version
+
 commit dc6a7195b46296e5b0aa7d88b48eeb2e18057841
 Merge: 354aa87 f641785
 Author: Patrick Schleizer <adrelanos@whonix.org>
