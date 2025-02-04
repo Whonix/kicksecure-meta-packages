@@ -1,3 +1,22 @@
+commit fc28cfce1a6d7fd282dc4e16b2a5b2557958e770
+Merge: 7e302a5 d183520
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Feb 3 06:10:17 2025 -0500
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/fix-thunar-icons-qubes'
+
+commit d1835201d2eb28978a34e86ed404e61f1b43d1e9
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Fri Jan 31 16:13:32 2025 -0600
+
+    Fix Thunar icons in Kicksecure Qubes template
+
+commit 7e302a5230b2567c88011402ddfffcabdf784504
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Jan 23 16:22:12 2025 +0000
+
+    bumped changelog version
+
 commit 05fbdfc3c21a638c94578fc20bdfc0be6759c1b5
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Jan 23 11:10:41 2025 -0500
